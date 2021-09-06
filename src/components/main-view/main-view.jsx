@@ -2,8 +2,8 @@ import React from 'react';
 import axios from 'axios';
 import { MovieCard } from '../movie-card/movie-card';
 import { MovieView } from '../movie-view/movie-view';
-import { LoginView } from '../login-view/login-view';
-import { RegistrationView } from '../registration-view/registration-view';
+// import { LoginView } from '../login-view/login-view';
+// import { RegistrationView } from '../registration-view/registration-view';
 
 export class MainView extends React.Component {
   constructor() {
@@ -11,8 +11,8 @@ export class MainView extends React.Component {
     this.state = {
       movies: [],
       selectedMovie: null,
-      user: null,
-      register: null,
+      // user: null,
+      // register: null,
     };
   }
 
@@ -37,33 +37,33 @@ export class MainView extends React.Component {
   }
 
   //Register new User
-  onRegistration(register) {
-    this.setState({
-      register,
-    });
-  }
+  // onRegistration(register) {
+  //   this.setState({
+  //     register,
+  //   });
+  // }
 
   //login user from login-view
-  onLoggedIn(user) {
-    this.setState({
-      user,
-    });
-  }
+  // onLoggedIn(user) {
+  //   this.setState({
+  //     user,
+  //   });
+  // }
 
   render() {
     const { movies, selectedMovie, user, register } = this.state;
 
     /* (!newregister): onRegistration is rendered ? LoginView*/
-    if (!register)
-      return (
-        <RegistrationView
-          onRegistration={(register) => this.onRegistration(register)}
-        />
-      );
+    // if (!register)
+    //   return (
+    //     <RegistrationView
+    //       onRegistration={(register) => this.onRegistration(register)}
+    //     />
+    //   );
 
-    /* (!user): LoginView is rendered ?user details*/
-    if (!user)
-      return <LoginView onLoggedIn={(user) => this.onLoggedIn(user)} />;
+    // /* (!user): LoginView is rendered ?user details*/
+    // if (!user)
+    //   return <LoginView onLoggedIn={(user) => this.onLoggedIn(user)} />;
 
     // Before the movies have been loaded
     if (movies.length === 0) return <div className='main-view' />;
