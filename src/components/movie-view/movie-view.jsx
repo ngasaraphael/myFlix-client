@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from 'react-bootstrap/Button';
 
 export class MovieView extends React.Component {
   render() {
@@ -7,31 +8,53 @@ export class MovieView extends React.Component {
     return (
       <div className='movie-view'>
         <div className='movie-poster'>
-          <img src={movie.ImagePath} crossOrigin='true' />
+          <img
+            src={movie.ImagePath}
+            crossOrigin='true'
+            style={{ width: '100%' }}
+          />
         </div>
+        <br />
         <div className='movie-title'>
-          <span className='label'>Title: </span>
+          <Button variant='dark' className='label'>
+            Title:
+          </Button>
+          &nbsp;&nbsp;
           <span className='value'>{movie.Title}</span>
         </div>
+        <br />
         <div className='movie-description'>
-          <span className='label'>Description: </span>
+          <Button variant='dark' className='label'>
+            Description:
+          </Button>
+          &nbsp;&nbsp;
           <span className='value'>{movie.Description}</span>
         </div>
+        <br />
         <div className='movie-genre'>
-          <span className='label'>Genre: </span>
+          <Button variant='dark' className='label'>
+            Genre:
+          </Button>
+          &nbsp;&nbsp;
           <span className='value'>{movie.Genre.Name}</span>
         </div>
+        <br />
         <div className='movie-director'>
-          <span className='label'>Director: </span>
+          <Button variant='dark' className='label'>
+            Director:
+          </Button>
+          &nbsp;&nbsp;
           <span className='value'>{movie.Director.Name}</span>
         </div>
-        <button
+        <br />
+        <Button
+          variant='primary'
           onClick={() => {
             onBackClick(null);
           }}
         >
           Back
-        </button>
+        </Button>
       </div>
     );
   }

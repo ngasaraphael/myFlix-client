@@ -1,4 +1,72 @@
 .my-flix {
   color: #01192c;
 }
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
+body {
+  background-color: #020524 !important;
+  color: white !important;
+  font-family: "Nunito", sans-serif;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 90%;
+  max-width: 800px;
+  height: 70vh;
+  margin: 40px auto 0;
+  border-radius: 4px;
+}
+#formGroup input {
+  height: 40px;
+  border: none;
+  border-radius: 4px;
+}
+#formGroup input:focus {
+  outline: none;
+}
+#formGroup {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
+body {
+  background-color: #020524 !important;
+  color: white !important;
+}
+h2 {
+  text-align: center;
+  margin-top: 40px !important;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 90%;
+  max-width: 800px;
+  height: 70vh;
+  margin: 40px auto 0;
+  border-radius: 4px;
+}
+form h4 {
+  padding: 40px 0 20px;
+}
+#formGroup {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+#formGroup input {
+  height: 40px;
+  border: none;
+  border-radius: 4px;
+}
+#formGroup input:focus {
+  outline: none;
+}
 /*# sourceMappingURL=index.caa67093.css.map */
