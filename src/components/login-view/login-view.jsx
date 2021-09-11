@@ -11,9 +11,19 @@ export function LoginView(props) {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-
-    console.log(username, password);
-    props.onLoggedIn(username);
+    /* Send a request to the server for authentication */
+    axios
+      .post('https://nameless-retreat-07686.herokuapp.com/login', {
+        username: username,
+        password: password,
+      })
+      .then((response) => {
+        const data = response.data;
+        props.onLoggedIn(data);
+      })
+      .catch((e) => {
+        console.log('no such user');
+      });
   };
 
   return (

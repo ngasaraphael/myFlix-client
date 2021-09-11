@@ -18,7 +18,7 @@ export function RegistrationView(props) {
 
   return (
     <div>
-      <h2>Welcom to My-Flix</h2>
+      <h2>Welcome to My-Flix</h2>
       <Form>
         <h4>Register an account</h4>
         <Form.Group id='formGroup'>
