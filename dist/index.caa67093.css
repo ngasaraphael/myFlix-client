@@ -1,11 +1,33 @@
 .my-flix {
   color: #01192c;
 }
-@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
+.movie-card {
+  margin: 4px;
+}
+
+.card-body {
+  color: #ff0558;
+  text-align: center;
+}
+.movie-view {
+  text-align: center;
+}
+
+.nav-btns {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.nav-btn {
+  width: 110px;
+  height: 40px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
 body {
   background-color: #020524 !important;
   color: white !important;
-  font-family: "Nunito", sans-serif;
+  font-family: 'Nunito', sans-serif;
 }
 form {
   display: flex;
@@ -15,8 +37,8 @@ form {
   background-color: rgba(255, 255, 255, 0.1);
   width: 90%;
   max-width: 800px;
-  height: 70vh;
-  margin: 40px auto 0;
+  height: 80vh;
+  margin: 40px auto 30px;
   border-radius: 4px;
 }
 #formGroup input {
@@ -32,7 +54,27 @@ form {
   flex-direction: column;
   width: 80%;
 }
-@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
+.login-btn {
+  width: 80%;
+  height: 40px;
+}
+.register-link {
+  color: #f73939;
+}
+.register-link:hover {
+  color: red;
+  text-decoration: none;
+  transform: scale(1.1);
+  transition: 0.2s ease-in-out;
+}
+.director-name {
+  color: white;
+}
+
+.nav-btn {
+  width: 110px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
 body {
   background-color: #020524 !important;
   color: white !important;
@@ -49,8 +91,8 @@ form {
   background-color: rgba(255, 255, 255, 0.1);
   width: 90%;
   max-width: 800px;
-  height: 70vh;
-  margin: 40px auto 0;
+  height: 80vh;
+  margin: 40px auto 30px;
   border-radius: 4px;
 }
 form h4 {
@@ -61,12 +103,125 @@ form h4 {
   flex-direction: column;
   width: 80%;
 }
-#formGroup input {
+#formGroup input,
+.date-input {
   height: 40px;
   border: none;
   border-radius: 4px;
 }
+.date-input {
+  width: 100%;
+  background-color: white;
+}
 #formGroup input:focus {
   outline: none;
+}
+.register-btn {
+  width: 80%;
+  height: 40px;
+}
+.login-link {
+  color: #f73939;
+}
+.login-link:hover {
+  color: red;
+  text-decoration: none;
+  transform: scale(1.1);
+  transition: 0.2s ease-in-out;
+}
+.navbar {
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 100vw;
+  height: 80px;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  margin-bottom: 40px;
+}
+
+.nav-links {
+  color: white;
+}
+
+.nav-links:hover {
+  text-decoration: none;
+  color: #ff0558;
+}
+
+.navbar-right {
+  display: flex;
+}
+
+.navbar-left {
+  margin-left: 4px;
+}
+
+.signout:hover {
+  text-decoration: none;
+  color: #ff0558;
+}
+
+.fa-sign-out-alt {
+  margin: 0 2px 0 20px;
+}
+.profile-nav {
+  margin-bottom: 40px;
+}
+
+.edit,
+.deregister,
+.favorite-movie {
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 40px;
+}
+
+.edit:hover,
+.deregister:hover,
+.favorite-movie:hover {
+  color: #ff0558;
+}
+
+.edit small,
+.deregister small,
+.favorite-movie small {
+  margin-left: 4px;
+}
+
+.favorite-movies {
+  margin: 20px 0;
+}
+
+.favorite-movie-title {
+  margin-top: 20px;
+}
+
+.delete-favorite {
+  display: block;
+  margin: 10px;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.profile-info {
+  display: flex;
+  margin-top: 30px;
+}
+
+.info {
+  margin: 10px;
+}
+
+.info .label {
+  color: #a3a3a3;
 }
 /*# sourceMappingURL=index.caa67093.css.map */

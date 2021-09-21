@@ -1,0 +1,59 @@
+$transparent-bg: rgba(255, 255, 255, 0.1);
+
+.profile-nav {
+  margin-bottom: 40px;
+}
+.edit,
+.deregister,
+.favorite-movie {
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 40px;
+}
+
+.edit:hover,
+.deregister:hover,
+.favorite-movie:hover {
+  color: rgb(255, 5, 88);
+}
+
+.edit small,
+.deregister small,
+.favorite-movie small {
+  margin-left: 4px;
+}
+
+.favorite-movies {
+  margin: 20px 0;
+}
+
+.favorite-movie-title {
+  margin-top: 20px;
+}
+
+.delete-favorite {
+  display: block;
+  margin: 10px;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 10px;
+  background-color: $transparent-bg;
+}
+
+.profile-info {
+  display: flex;
+  margin-top: 30px;
+}
+
+.info {
+  margin: 10px;
+}
+
+.info .label {
+  color: rgb(163, 163, 163);
+}

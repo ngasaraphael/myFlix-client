@@ -21,8 +21,8 @@ form {
   background-color: $transparent-bg;
   width: 90%;
   max-width: 800px;
-  height: 70vh;
-  margin: 40px auto 0;
+  height: 80vh;
+  margin: 40px auto 30px;
   border-radius: 4px;
 }
 
@@ -40,4 +40,20 @@ form {
   display: flex;
   flex-direction: column;
   width: 80%;
+}
+
+.login-btn {
+  width: 80%;
+  height: 40px;
+}
+
+.register-link {
+  color: rgb(247, 57, 57);
+}
+
+.register-link:hover {
+  color: rgb(255, 0, 0);
+  text-decoration: none;
+  transform: scale(1.1);
+  transition: 0.2s ease-in-out;
 }
