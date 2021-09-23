@@ -1,11 +1,5 @@
 import React from 'react';
 import axios from 'axios';
-<<<<<<< Updated upstream
-import { MovieCard } from '../movie-card/movie-card';
-import { MovieView } from '../movie-view/movie-view';
-import { LoginView } from '../login-view/login-view';
-import { RegistrationView } from '../registration-view/registration-view';
-=======
 import { BrowserRouter as Router, Route, Redirect } from 'react-router-dom';
 import NavbarView from '../navbar-view/Navbar-view';
 import { MovieCard } from '../movie-card/movie-card';
@@ -15,7 +9,6 @@ import { GenreView } from '../genre-view/genre-view';
 import { DirectorView } from '../director-view/director-view';
 import { RegistrationView } from '../registration-view/registration-view';
 import Profile from '../profile-view/profile-view';
->>>>>>> Stashed changes
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
@@ -30,10 +23,6 @@ export class MainView extends React.Component {
     };
   }
 
-<<<<<<< Updated upstream
-  // good for fetching APIs
-  componentDidMount() {
-=======
   componentDidMount() {
     let accessToken = localStorage.getItem('token');
     if (accessToken !== null) {
@@ -46,7 +35,6 @@ export class MainView extends React.Component {
 
   //get movies from database
   getMovies(token) {
->>>>>>> Stashed changes
     axios
       .get('https://nameless-retreat-07686.herokuapp.com/movies')
       .then((response) => {
@@ -59,27 +47,6 @@ export class MainView extends React.Component {
       });
   }
 
-<<<<<<< Updated upstream
-  setSelectedMovie(movie) {
-    this.setState({
-      selectedMovie: movie,
-    });
-  }
-
-  //Register new User
-  onRegistration(register) {
-    this.setState({
-      register,
-    });
-  }
-
-  //login user from login-view
-  onLoggedIn(user) {
-    this.setState({
-      user,
-    });
-  }
-=======
   //login user from login-view
   onLoggedIn(authData) {
     this.setState({
@@ -96,57 +63,10 @@ export class MainView extends React.Component {
   //     selectedMovie: movie,
   //   });
   // }
->>>>>>> Stashed changes
 
   render() {
     const { movies, selectedMovie, user, register } = this.state;
 
-<<<<<<< Updated upstream
-    /* (!newregister): onRegistration is rendered ? LoginView*/
-
-    //COMMENTED OUT FOR NOW
-
-    if (!register)
-      return (
-        <RegistrationView
-          onRegistration={(register) => this.onRegistration(register)}
-        />
-      );
-
-    /* (!user): LoginView is rendered ?user details*/
-    if (!user)
-      return <LoginView onLoggedIn={(user) => this.onLoggedIn(user)} />;
-
-    // Before the movies have been loaded
-    if (movies.length === 0) return <div className='main-view' />;
-
-    return (
-      /*(!selectedMovie): return selected movie ? return all movies */
-      <Row className='main-view justify-content-md-center'>
-        {selectedMovie ? (
-          <Col md={6}>
-            <MovieView
-              movie={selectedMovie}
-              onBackClick={(newSelectedMovie) => {
-                this.setSelectedMovie(newSelectedMovie);
-              }}
-            />
-          </Col>
-        ) : (
-          movies.map((movie) => (
-            <Col md={4}>
-              <MovieCard
-                key={movie._id}
-                movie={movie}
-                onMovieClick={(newSelectedMovie) => {
-                  this.setSelectedMovie(newSelectedMovie);
-                }}
-              />
-            </Col>
-          ))
-        )}
-      </Row>
-=======
     // if (!user)
     //   return (
     //     <Row>
@@ -257,7 +177,6 @@ export class MainView extends React.Component {
           />
         </Row>
       </Router>
->>>>>>> Stashed changes
     );
   }
 }

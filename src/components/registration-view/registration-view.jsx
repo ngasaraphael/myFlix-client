@@ -49,10 +49,6 @@ export function RegistrationView(props) {
 
   return (
     <div>
-<<<<<<< Updated upstream
-      <h2>Welcom to My-Flix</h2>
-=======
->>>>>>> Stashed changes
       <Form>
         <h4>Register an account</h4>
         <Form.Group id='formGroup'>

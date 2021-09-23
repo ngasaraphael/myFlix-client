@@ -57,16 +57,16 @@ const Profile = () => {
 
     axios
       .patch(
-        `https://nameless-retreat-07686.herokuapp.com/users/${user}`,
-        {
-          headers: { Authorization: `Bearer ${token}` },
-        },
+        `https://nameless-retreat-07686.herokuapp.com/users/${username}`,
 
         {
           username: username,
           password: password,
           email: email,
           birthday: birthday,
+        },
+        {
+          headers: { Authorization: `Bearer ${token}` },
         }
       )
       .then((response) => {
@@ -226,7 +226,6 @@ const Profile = () => {
   );
 
   //path to update user info
-
   return (
     <div>
       <div className='profile-nav'>

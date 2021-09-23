@@ -13,10 +13,6 @@ export function LoginView(props) {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-<<<<<<< Updated upstream
-    console.log(username, password);
-    props.onLoggedIn(username);
-=======
     //form validation
     if (username === '' || password === '') {
       alert('Please fill all input fields');
@@ -35,7 +31,6 @@ export function LoginView(props) {
       .catch((e) => {
         alert('Incorrect login Username or Password');
       });
->>>>>>> Stashed changes
   };
 
   return (
