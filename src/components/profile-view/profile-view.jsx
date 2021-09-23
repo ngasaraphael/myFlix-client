@@ -159,7 +159,7 @@ const Profile = () => {
           </div>
           <div className='info'>
             <p className='label'>Date of birth</p>
-            <p>{profileData.birthday}</p>
+            <p>{new Date(profileData.birthday).toDateString()}</p>
           </div>
         </div>
       </div>

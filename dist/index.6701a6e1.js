@@ -30205,7 +30205,7 @@ const Profile = ()=>{
                                         lineNumber: 162
                                     },
                                     __self: undefined,
-                                    children: profileData.birthday
+                                    children: new Date(profileData.birthday).toDateString()
                                 })
                             ]
                         })
