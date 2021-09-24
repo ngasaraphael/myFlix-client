@@ -23114,7 +23114,7 @@ class MainView extends _reactDefault.default.Component {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-runtime":"8xIwr","react":"6TuXu","axios":"iYoWk","../movie-card/movie-card":"6EiBJ","../movie-view/movie-view":"ikZdr","@parcel/transformer-js/src/esmodule-helpers.js":"5lGN4","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"lpaPZ","../login-view/login-view":"054li","react-bootstrap/Row":"c0x1x","react-bootstrap/Col":"fbam0","../registration-view/registration-view":"aP2YV","react-router-dom":"cpyQW","../navbar-view/Navbar-view":"dePIl","../genre-view/genre-view":"8WCoL","../director-view/director-view":"ck15y","../profile-view/profile-view":"2E7Aw"}],"iYoWk":[function(require,module,exports) {
+},{"react/jsx-runtime":"8xIwr","react":"6TuXu","axios":"iYoWk","../movie-card/movie-card":"6EiBJ","../movie-view/movie-view":"ikZdr","@parcel/transformer-js/src/esmodule-helpers.js":"5lGN4","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"lpaPZ","../login-view/login-view":"054li","react-bootstrap/Row":"c0x1x","react-bootstrap/Col":"fbam0","../registration-view/registration-view":"aP2YV","react-router-dom":"cpyQW","../navbar-view/Navbar-view":"j0Dt2","../genre-view/genre-view":"8WCoL","../director-view/director-view":"ck15y","../profile-view/profile-view":"2E7Aw"}],"iYoWk":[function(require,module,exports) {
 module.exports = require('./lib/axios');
 
 },{"./lib/axios":"3QmO2"}],"3QmO2":[function(require,module,exports) {
@@ -29611,11 +29611,11 @@ $RefreshReg$(_c, "RegistrationView");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-runtime":"8xIwr","react":"6TuXu","prop-types":"1tgq3","./registration-view.scss":"fr9ZP","react-bootstrap/Form":"5ykgY","react-bootstrap/Button":"9CzHT","@parcel/transformer-js/src/esmodule-helpers.js":"5lGN4","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"lpaPZ","axios":"iYoWk","react-router-dom":"cpyQW"}],"fr9ZP":[function() {},{}],"dePIl":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$8a9b = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"react/jsx-runtime":"8xIwr","react":"6TuXu","prop-types":"1tgq3","./registration-view.scss":"fr9ZP","react-bootstrap/Form":"5ykgY","react-bootstrap/Button":"9CzHT","@parcel/transformer-js/src/esmodule-helpers.js":"5lGN4","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"lpaPZ","axios":"iYoWk","react-router-dom":"cpyQW"}],"fr9ZP":[function() {},{}],"j0Dt2":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$469c = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$8a9b.prelude(module);
+$parcel$ReactRefreshHelpers$469c.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -29634,7 +29634,7 @@ const NavbarView = ()=>{
     return(/*#__PURE__*/ _jsxRuntime.jsxs("div", {
         className: "navbar",
         __source: {
-            fileName: "src/components/navbar-view/navbar-view.js",
+            fileName: "src/components/navbar-view/navbar-view.jsx",
             lineNumber: 14
         },
         __self: undefined,
@@ -29642,7 +29642,7 @@ const NavbarView = ()=>{
             /*#__PURE__*/ _jsxRuntime.jsx("div", {
                 className: "navbar-left",
                 __source: {
-                    fileName: "src/components/navbar-view/navbar-view.js",
+                    fileName: "src/components/navbar-view/navbar-view.jsx",
                     lineNumber: 15
                 },
                 __self: undefined,
@@ -29650,7 +29650,7 @@ const NavbarView = ()=>{
                     className: "nav-links",
                     to: "/",
                     __source: {
-                        fileName: "src/components/navbar-view/navbar-view.js",
+                        fileName: "src/components/navbar-view/navbar-view.jsx",
                         lineNumber: 16
                     },
                     __self: undefined,
@@ -29660,7 +29660,7 @@ const NavbarView = ()=>{
             /*#__PURE__*/ _jsxRuntime.jsxs("div", {
                 className: "navbar-right",
                 __source: {
-                    fileName: "src/components/navbar-view/navbar-view.js",
+                    fileName: "src/components/navbar-view/navbar-view.jsx",
                     lineNumber: 20
                 },
                 __self: undefined,
@@ -29669,7 +29669,7 @@ const NavbarView = ()=>{
                         className: "nav-links",
                         to: "/profile",
                         __source: {
-                            fileName: "src/components/navbar-view/navbar-view.js",
+                            fileName: "src/components/navbar-view/navbar-view.jsx",
                             lineNumber: 21
                         },
                         __self: undefined,
@@ -29679,7 +29679,7 @@ const NavbarView = ()=>{
                         className: "signout",
                         onClick: logOut,
                         __source: {
-                            fileName: "src/components/navbar-view/navbar-view.js",
+                            fileName: "src/components/navbar-view/navbar-view.jsx",
                             lineNumber: 24
                         },
                         __self: undefined,
@@ -29687,14 +29687,14 @@ const NavbarView = ()=>{
                             /*#__PURE__*/ _jsxRuntime.jsx("i", {
                                 className: "fas fa-sign-out-alt",
                                 __source: {
-                                    fileName: "src/components/navbar-view/navbar-view.js",
+                                    fileName: "src/components/navbar-view/navbar-view.jsx",
                                     lineNumber: 25
                                 },
                                 __self: undefined
                             }),
                             /*#__PURE__*/ _jsxRuntime.jsx("small", {
                                 __source: {
-                                    fileName: "src/components/navbar-view/navbar-view.js",
+                                    fileName: "src/components/navbar-view/navbar-view.jsx",
                                     lineNumber: 26
                                 },
                                 __self: undefined,
@@ -29712,7 +29712,7 @@ exports.default = NavbarView;
 var _c;
 $RefreshReg$(_c, "NavbarView");
 
-  $parcel$ReactRefreshHelpers$8a9b.postlude(module);
+  $parcel$ReactRefreshHelpers$469c.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
@@ -30011,7 +30011,7 @@ const Profile = ()=>{
             alert('Password must be more than 6 characters');
             return false;
         } else if (!email.match(re)) alert('Please enter a valid email address');
-        _axiosDefault.default.patch(`https://nameless-retreat-07686.herokuapp.com/users/${username}`, {
+        _axiosDefault.default.patch(`https://nameless-retreat-07686.herokuapp.com/users/${user}`, {
             username: username,
             password: password,
             email: email,
@@ -30021,7 +30021,8 @@ const Profile = ()=>{
                 Authorization: `Bearer ${token}`
             }
         }).then((response)=>{
-            const data = response.data;
+            // const data = response.data;
+            console.log(response.data);
             //remove old user and store new user
             localStorage.removeItem('user');
             localStorage.setItem('user', username);
@@ -30077,21 +30078,21 @@ const Profile = ()=>{
     const profile = /*#__PURE__*/ _jsxRuntime.jsx(_react.Fragment, {
         __source: {
             fileName: "src/components/profile-view/profile-view.jsx",
-            lineNumber: 144
+            lineNumber: 145
         },
         __self: undefined,
         children: /*#__PURE__*/ _jsxRuntime.jsxs("div", {
             className: "profile",
             __source: {
                 fileName: "src/components/profile-view/profile-view.jsx",
-                lineNumber: 145
+                lineNumber: 146
             },
             __self: undefined,
             children: [
                 /*#__PURE__*/ _jsxRuntime.jsx("h5", {
                     __source: {
                         fileName: "src/components/profile-view/profile-view.jsx",
-                        lineNumber: 146
+                        lineNumber: 147
                     },
                     __self: undefined,
                     children: "My Profile"
@@ -30099,7 +30100,7 @@ const Profile = ()=>{
                 /*#__PURE__*/ _jsxRuntime.jsx("br", {
                     __source: {
                         fileName: "src/components/profile-view/profile-view.jsx",
-                        lineNumber: 147
+                        lineNumber: 148
                     },
                     __self: undefined
                 }),
@@ -30107,7 +30108,7 @@ const Profile = ()=>{
                     className: "profile-img",
                     __source: {
                         fileName: "src/components/profile-view/profile-view.jsx",
-                        lineNumber: 148
+                        lineNumber: 149
                     },
                     __self: undefined,
                     children: /*#__PURE__*/ _jsxRuntime.jsx("img", {
@@ -30115,7 +30116,7 @@ const Profile = ()=>{
                         alt: "img",
                         __source: {
                             fileName: "src/components/profile-view/profile-view.jsx",
-                            lineNumber: 149
+                            lineNumber: 150
                         },
                         __self: undefined
                     })
@@ -30124,7 +30125,7 @@ const Profile = ()=>{
                     className: "profile-info",
                     __source: {
                         fileName: "src/components/profile-view/profile-view.jsx",
-                        lineNumber: 151
+                        lineNumber: 152
                     },
                     __self: undefined,
                     children: [
@@ -30132,7 +30133,7 @@ const Profile = ()=>{
                             className: "info",
                             __source: {
                                 fileName: "src/components/profile-view/profile-view.jsx",
-                                lineNumber: 152
+                                lineNumber: 153
                             },
                             __self: undefined,
                             children: [
@@ -30140,7 +30141,7 @@ const Profile = ()=>{
                                     className: "label",
                                     __source: {
                                         fileName: "src/components/profile-view/profile-view.jsx",
-                                        lineNumber: 153
+                                        lineNumber: 154
                                     },
                                     __self: undefined,
                                     children: "Name"
@@ -30148,7 +30149,7 @@ const Profile = ()=>{
                                 /*#__PURE__*/ _jsxRuntime.jsx("p", {
                                     __source: {
                                         fileName: "src/components/profile-view/profile-view.jsx",
-                                        lineNumber: 154
+                                        lineNumber: 155
                                     },
                                     __self: undefined,
                                     children: profileData.username
@@ -30159,7 +30160,7 @@ const Profile = ()=>{
                             className: "info",
                             __source: {
                                 fileName: "src/components/profile-view/profile-view.jsx",
-                                lineNumber: 156
+                                lineNumber: 157
                             },
                             __self: undefined,
                             children: [
@@ -30167,7 +30168,7 @@ const Profile = ()=>{
                                     className: "label",
                                     __source: {
                                         fileName: "src/components/profile-view/profile-view.jsx",
-                                        lineNumber: 157
+                                        lineNumber: 158
                                     },
                                     __self: undefined,
                                     children: "Email"
@@ -30175,7 +30176,7 @@ const Profile = ()=>{
                                 /*#__PURE__*/ _jsxRuntime.jsx("p", {
                                     __source: {
                                         fileName: "src/components/profile-view/profile-view.jsx",
-                                        lineNumber: 158
+                                        lineNumber: 159
                                     },
                                     __self: undefined,
                                     children: profileData.email
@@ -30186,7 +30187,7 @@ const Profile = ()=>{
                             className: "info",
                             __source: {
                                 fileName: "src/components/profile-view/profile-view.jsx",
-                                lineNumber: 160
+                                lineNumber: 161
                             },
                             __self: undefined,
                             children: [
@@ -30194,7 +30195,7 @@ const Profile = ()=>{
                                     className: "label",
                                     __source: {
                                         fileName: "src/components/profile-view/profile-view.jsx",
-                                        lineNumber: 161
+                                        lineNumber: 162
                                     },
                                     __self: undefined,
                                     children: "Date of birth"
@@ -30202,7 +30203,7 @@ const Profile = ()=>{
                                 /*#__PURE__*/ _jsxRuntime.jsx("p", {
                                     __source: {
                                         fileName: "src/components/profile-view/profile-view.jsx",
-                                        lineNumber: 162
+                                        lineNumber: 163
                                     },
                                     __self: undefined,
                                     children: new Date(profileData.birthday).toDateString()
@@ -30218,26 +30219,26 @@ const Profile = ()=>{
     const updateForm = /*#__PURE__*/ _jsxRuntime.jsx(_react.Fragment, {
         __source: {
             fileName: "src/components/profile-view/profile-view.jsx",
-            lineNumber: 171
+            lineNumber: 172
         },
         __self: undefined,
         children: /*#__PURE__*/ _jsxRuntime.jsx("div", {
             __source: {
                 fileName: "src/components/profile-view/profile-view.jsx",
-                lineNumber: 172
+                lineNumber: 173
             },
             __self: undefined,
             children: /*#__PURE__*/ _jsxRuntime.jsxs(_formDefault.default, {
                 __source: {
                     fileName: "src/components/profile-view/profile-view.jsx",
-                    lineNumber: 173
+                    lineNumber: 174
                 },
                 __self: undefined,
                 children: [
                     /*#__PURE__*/ _jsxRuntime.jsx("h4", {
                         __source: {
                             fileName: "src/components/profile-view/profile-view.jsx",
-                            lineNumber: 174
+                            lineNumber: 175
                         },
                         __self: undefined,
                         children: "Edit profile"
@@ -30246,7 +30247,7 @@ const Profile = ()=>{
                         id: "formGroup",
                         __source: {
                             fileName: "src/components/profile-view/profile-view.jsx",
-                            lineNumber: 175
+                            lineNumber: 176
                         },
                         __self: undefined,
                         children: [
@@ -30254,7 +30255,7 @@ const Profile = ()=>{
                                 className: "username",
                                 __source: {
                                     fileName: "src/components/profile-view/profile-view.jsx",
-                                    lineNumber: 176
+                                    lineNumber: 177
                                 },
                                 __self: undefined,
                                 children: "Username"
@@ -30268,7 +30269,7 @@ const Profile = ()=>{
                                 ,
                                 __source: {
                                     fileName: "src/components/profile-view/profile-view.jsx",
-                                    lineNumber: 177
+                                    lineNumber: 178
                                 },
                                 __self: undefined
                             })
@@ -30278,7 +30279,7 @@ const Profile = ()=>{
                         id: "formGroup",
                         __source: {
                             fileName: "src/components/profile-view/profile-view.jsx",
-                            lineNumber: 185
+                            lineNumber: 186
                         },
                         __self: undefined,
                         children: [
@@ -30286,7 +30287,7 @@ const Profile = ()=>{
                                 className: "password",
                                 __source: {
                                     fileName: "src/components/profile-view/profile-view.jsx",
-                                    lineNumber: 186
+                                    lineNumber: 187
                                 },
                                 __self: undefined,
                                 children: "Password"
@@ -30299,7 +30300,7 @@ const Profile = ()=>{
                                 ,
                                 __source: {
                                     fileName: "src/components/profile-view/profile-view.jsx",
-                                    lineNumber: 187
+                                    lineNumber: 188
                                 },
                                 __self: undefined
                             })
@@ -30309,7 +30310,7 @@ const Profile = ()=>{
                         id: "formGroup",
                         __source: {
                             fileName: "src/components/profile-view/profile-view.jsx",
-                            lineNumber: 194
+                            lineNumber: 195
                         },
                         __self: undefined,
                         children: [
@@ -30317,7 +30318,7 @@ const Profile = ()=>{
                                 className: "email",
                                 __source: {
                                     fileName: "src/components/profile-view/profile-view.jsx",
-                                    lineNumber: 195
+                                    lineNumber: 196
                                 },
                                 __self: undefined,
                                 children: "Email"
@@ -30331,7 +30332,7 @@ const Profile = ()=>{
                                 ,
                                 __source: {
                                     fileName: "src/components/profile-view/profile-view.jsx",
-                                    lineNumber: 196
+                                    lineNumber: 197
                                 },
                                 __self: undefined
                             })
@@ -30341,7 +30342,7 @@ const Profile = ()=>{
                         id: "formGroup",
                         __source: {
                             fileName: "src/components/profile-view/profile-view.jsx",
-                            lineNumber: 204
+                            lineNumber: 205
                         },
                         __self: undefined,
                         children: [
@@ -30349,7 +30350,7 @@ const Profile = ()=>{
                                 className: "birthdate",
                                 __source: {
                                     fileName: "src/components/profile-view/profile-view.jsx",
-                                    lineNumber: 205
+                                    lineNumber: 206
                                 },
                                 __self: undefined,
                                 children: "Birth date"
@@ -30363,7 +30364,7 @@ const Profile = ()=>{
                                 ,
                                 __source: {
                                     fileName: "src/components/profile-view/profile-view.jsx",
-                                    lineNumber: 206
+                                    lineNumber: 207
                                 },
                                 __self: undefined
                             })
@@ -30376,7 +30377,7 @@ const Profile = ()=>{
                         onClick: handleSubmit,
                         __source: {
                             fileName: "src/components/profile-view/profile-view.jsx",
-                            lineNumber: 214
+                            lineNumber: 215
                         },
                         __self: undefined,
                         children: "Confirm"
@@ -30384,7 +30385,7 @@ const Profile = ()=>{
                     /*#__PURE__*/ _jsxRuntime.jsx("br", {
                         __source: {
                             fileName: "src/components/profile-view/profile-view.jsx",
-                            lineNumber: 222
+                            lineNumber: 223
                         },
                         __self: undefined
                     })
@@ -30396,7 +30397,7 @@ const Profile = ()=>{
     return(/*#__PURE__*/ _jsxRuntime.jsxs("div", {
         __source: {
             fileName: "src/components/profile-view/profile-view.jsx",
-            lineNumber: 230
+            lineNumber: 231
         },
         __self: undefined,
         children: [
@@ -30404,7 +30405,7 @@ const Profile = ()=>{
                 className: "profile-nav",
                 __source: {
                     fileName: "src/components/profile-view/profile-view.jsx",
-                    lineNumber: 231
+                    lineNumber: 232
                 },
                 __self: undefined,
                 children: [
@@ -30413,7 +30414,7 @@ const Profile = ()=>{
                         className: "deregister",
                         __source: {
                             fileName: "src/components/profile-view/profile-view.jsx",
-                            lineNumber: 232
+                            lineNumber: 233
                         },
                         __self: undefined,
                         children: [
@@ -30421,14 +30422,14 @@ const Profile = ()=>{
                                 className: "far fa-trash-alt",
                                 __source: {
                                     fileName: "src/components/profile-view/profile-view.jsx",
-                                    lineNumber: 233
+                                    lineNumber: 234
                                 },
                                 __self: undefined
                             }),
                             /*#__PURE__*/ _jsxRuntime.jsx("small", {
                                 __source: {
                                     fileName: "src/components/profile-view/profile-view.jsx",
-                                    lineNumber: 234
+                                    lineNumber: 235
                                 },
                                 __self: undefined,
                                 children: "Delete Profile"
@@ -30440,7 +30441,7 @@ const Profile = ()=>{
                         className: "edit",
                         __source: {
                             fileName: "src/components/profile-view/profile-view.jsx",
-                            lineNumber: 236
+                            lineNumber: 237
                         },
                         __self: undefined,
                         children: [
@@ -30448,14 +30449,14 @@ const Profile = ()=>{
                                 className: "fas fa-edit",
                                 __source: {
                                     fileName: "src/components/profile-view/profile-view.jsx",
-                                    lineNumber: 238
+                                    lineNumber: 239
                                 },
                                 __self: undefined
                             }),
                             /*#__PURE__*/ _jsxRuntime.jsx("small", {
                                 __source: {
                                     fileName: "src/components/profile-view/profile-view.jsx",
-                                    lineNumber: 239
+                                    lineNumber: 240
                                 },
                                 __self: undefined,
                                 children: "Edit"
@@ -30469,7 +30470,7 @@ const Profile = ()=>{
                 className: "favorite-movies",
                 __source: {
                     fileName: "src/components/profile-view/profile-view.jsx",
-                    lineNumber: 246
+                    lineNumber: 247
                 },
                 __self: undefined,
                 children: [
@@ -30477,7 +30478,7 @@ const Profile = ()=>{
                         className: "favorite-movie",
                         __source: {
                             fileName: "src/components/profile-view/profile-view.jsx",
-                            lineNumber: 247
+                            lineNumber: 248
                         },
                         __self: undefined,
                         children: [
@@ -30485,14 +30486,14 @@ const Profile = ()=>{
                                 className: "far fa-thumbs-up",
                                 __source: {
                                     fileName: "src/components/profile-view/profile-view.jsx",
-                                    lineNumber: 248
+                                    lineNumber: 249
                                 },
                                 __self: undefined
                             }),
                             /*#__PURE__*/ _jsxRuntime.jsx("small", {
                                 __source: {
                                     fileName: "src/components/profile-view/profile-view.jsx",
-                                    lineNumber: 249
+                                    lineNumber: 250
                                 },
                                 __self: undefined,
                                 children: "Favorite Movies"
@@ -30503,7 +30504,7 @@ const Profile = ()=>{
                         className: "favorite-movie-title",
                         __source: {
                             fileName: "src/components/profile-view/profile-view.jsx",
-                            lineNumber: 251
+                            lineNumber: 252
                         },
                         __self: undefined,
                         children: [
@@ -30511,7 +30512,7 @@ const Profile = ()=>{
                                 variant: "primary",
                                 __source: {
                                     fileName: "src/components/profile-view/profile-view.jsx",
-                                    lineNumber: 253
+                                    lineNumber: 254
                                 },
                                 __self: undefined,
                                 children: myfavoriteMovie
@@ -30519,7 +30520,7 @@ const Profile = ()=>{
                                 variant: "primary",
                                 __source: {
                                     fileName: "src/components/profile-view/profile-view.jsx",
-                                    lineNumber: 255
+                                    lineNumber: 256
                                 },
                                 __self: undefined,
                                 children: "None"
@@ -30530,7 +30531,7 @@ const Profile = ()=>{
                                 onClick: deleteFavorite,
                                 __source: {
                                     fileName: "src/components/profile-view/profile-view.jsx",
-                                    lineNumber: 257
+                                    lineNumber: 258
                                 },
                                 __self: undefined,
                                 children: [
@@ -30538,7 +30539,7 @@ const Profile = ()=>{
                                         className: "fas fa-trash-alt",
                                         __source: {
                                             fileName: "src/components/profile-view/profile-view.jsx",
-                                            lineNumber: 262
+                                            lineNumber: 263
                                         },
                                         __self: undefined
                                     }),

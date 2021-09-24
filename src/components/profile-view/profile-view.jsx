@@ -57,7 +57,7 @@ const Profile = () => {
 
     axios
       .patch(
-        `https://nameless-retreat-07686.herokuapp.com/users/${username}`,
+        `https://nameless-retreat-07686.herokuapp.com/users/${user}`,
 
         {
           username: username,
@@ -70,7 +70,8 @@ const Profile = () => {
         }
       )
       .then((response) => {
-        const data = response.data;
+        // const data = response.data;
+        console.log(response.data);
 
         //remove old user and store new user
         localStorage.removeItem('user');
