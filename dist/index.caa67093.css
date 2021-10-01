@@ -1,14 +1,6 @@
 .my-flix {
   color: #01192c;
 }
-.movie-card {
-  margin: 4px;
-}
-
-.card-body {
-  color: #ff0558;
-  text-align: center;
-}
 .movie-view {
   text-align: center;
 }
@@ -223,5 +215,13 @@ form h4 {
 
 .info .label {
   color: #a3a3a3;
+}
+.movie-card {
+  margin: 4px;
+}
+
+.card-body {
+  color: #ff0558;
+  text-align: center;
 }
 /*# sourceMappingURL=index.caa67093.css.map */

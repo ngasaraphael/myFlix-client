@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
+import moment from 'moment';
 import PropTypes from 'prop-types';
 import './registration-view.scss';
 import Form from 'react-bootstrap/Form';

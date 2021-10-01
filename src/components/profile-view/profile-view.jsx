@@ -2,8 +2,10 @@ import axios from 'axios';
 import React, { Fragment, useEffect, useState } from 'react';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
-// import  Card from 'react-bootstrap/Card';
-// import  Row from 'react-bootstrap/Row';
+
+import { useDispatch } from 'react-redux';
+import { setUser } from '../../actions/actions';
+
 import profileImg from '../../img/profile.png';
 import './profile-view.scss';
 

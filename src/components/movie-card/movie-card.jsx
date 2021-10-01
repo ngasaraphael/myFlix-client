@@ -7,14 +7,14 @@ import './movie-card.scss';
 
 export class MovieCard extends React.Component {
   render() {
-    const { movie, onMovieClick } = this.props;
+    const { movie } = this.props;
 
     return (
       <Card className='movie-card'>
         <Card.Img src={movie.ImagePath} crossOrigin='true' />
         <Card.Body className='card-body'>
           <Card.Title>{movie.Title}</Card.Title>
-          <Link to={`/movies/${movie._id}`}>
+          <Link to={`/movies/${movie.Title}`}>
             <Button variant='danger'>View more</Button>
           </Link>
         </Card.Body>
@@ -33,5 +33,4 @@ MovieCard.propTypes = {
       Description: PropTypes.string,
     }),
   }),
-  onMovieClick: PropTypes.func.isRequired,
 };
