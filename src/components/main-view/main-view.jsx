@@ -9,7 +9,6 @@ import MoviesList from '../movies-list/movies-list';
 
 import { BrowserRouter as Router, Route, Redirect } from 'react-router-dom';
 import NavbarView from '../navbar-view/Navbar-view';
-// import { MovieCard } from '../movie-card/movie-card';
 import { MovieView } from '../movie-view/movie-view';
 import { LoginView } from '../login-view/login-view';
 import { GenreView } from '../genre-view/genre-view';
@@ -36,9 +35,8 @@ class MainView extends React.Component {
   componentDidMount() {
     let accessToken = localStorage.getItem('token');
     if (accessToken !== null) {
-      this.setState({
-        user: localStorage.getItem('user'),
-      });
+      let user = localStorage.getItem('user');
+      this.props.setUser(user);
       this.getMovies(accessToken);
     }
   }
@@ -59,9 +57,6 @@ class MainView extends React.Component {
 
   //login user from login-view
   onLoggedIn(authData) {
-    // this.setState({
-    // user: authData.user.username,
-    // });
     this.props.setUser(authData.user.username);
     localStorage.setItem('token', authData.token);
     localStorage.setItem('user', authData.user.username);
@@ -72,6 +67,15 @@ class MainView extends React.Component {
     // #5 movies is extracted from this.props rather than from the this.state
     let { movies, user } = this.props;
 
+    if (!user)
+      return (
+        <Router>
+          <Col>
+            <LoginView onLoggedIn={(user) => this.onLoggedIn(user)} />
+          </Col>
+        </Router>
+      );
+
     return (
       <Router>
         {user && <NavbarView />}
@@ -80,20 +84,12 @@ class MainView extends React.Component {
             exact
             path='/'
             render={() => {
-              if (!user)
-                return (
-                  <Col>
-                    <LoginView onLoggedIn={(user) => this.onLoggedIn(user)} />
-                  </Col>
-                );
-
               if (movies.length === 0) return <div className='main-view' />;
               // #6
               return <MoviesList movies={movies} />;
             }}
           />
 
-          {/* register new user */}
           <Route
             path='/register'
             render={() => {
@@ -106,7 +102,6 @@ class MainView extends React.Component {
             }}
           />
 
-          {/* User's Profile */}
           <Route
             path='/profile'
             render={() => {
@@ -118,7 +113,6 @@ class MainView extends React.Component {
             }}
           />
 
-          {/* //route to single movie */}
           <Route
             path='/movies/:movieId'
             render={({ match, history }) => {
@@ -133,7 +127,6 @@ class MainView extends React.Component {
             }}
           />
 
-          {/* route to movie genre */}
           <Route
             path='/genres/:name'
             render={({ match, history }) => {
@@ -151,7 +144,7 @@ class MainView extends React.Component {
               );
             }}
           />
-          {/* Directores route */}
+
           <Route
             path='/directors/:name'
             render={({ match, history }) => {

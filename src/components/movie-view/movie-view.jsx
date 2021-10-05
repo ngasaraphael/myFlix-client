@@ -6,6 +6,7 @@ import Button from 'react-bootstrap/Button';
 import propTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import './movie-view.scss';
+import Loading from '../../loading/Loading';
 
 class MovieViewComponent extends React.Component {
   constructor(props) {
@@ -50,7 +51,7 @@ class MovieViewComponent extends React.Component {
   render() {
     const { onBackClick } = this.props;
     const { movie } = this.state;
-    if (!movie) return <h2>Loading...</h2>;
+    if (!movie) return <Loading />;
 
     return (
       <div className='movie-view'>
