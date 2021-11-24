@@ -28075,10 +28075,7 @@ $RefreshReg$(_c, "Loading");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-runtime":"8xIwr","react":"6TuXu","./Loading.module.css":"934PT","@parcel/transformer-js/src/esmodule-helpers.js":"5lGN4","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"lpaPZ","url:./spinner.gif":"8LumZ"}],"934PT":[function(require,module,exports) {
-module.exports["loading"] = "_loading_e4852a";
-
-},{}],"8LumZ":[function(require,module,exports) {
+},{"react/jsx-runtime":"8xIwr","react":"6TuXu","url:./spinner.gif":"8LumZ","./Loading.module.css":"934PT","@parcel/transformer-js/src/esmodule-helpers.js":"5lGN4","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"lpaPZ"}],"8LumZ":[function(require,module,exports) {
 module.exports = require('./helpers/bundle-url').getBundleURL('3VpAv') + "spinner.caed6f06.gif";
 
 },{"./helpers/bundle-url":"7B0nW"}],"7B0nW":[function(require,module,exports) {
@@ -28115,6 +28112,9 @@ function getOrigin(url) {
 exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
 exports.getOrigin = getOrigin;
+
+},{}],"934PT":[function(require,module,exports) {
+module.exports["loading"] = "_loading_e4852a";
 
 },{}],"054li":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$02dd = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
