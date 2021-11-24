@@ -1,3 +1,6 @@
+## About
+App that renders movies with CRUD functionality
+
 ## Features
 View a list of all moves. 
 Filter list by name   
