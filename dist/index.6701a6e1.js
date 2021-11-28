@@ -140,7 +140,7 @@
       this[globalName] = mainExports;
     }
   }
-})({"9NtYk":[function(require,module,exports) {
+})({"2rAXy":[function(require,module,exports) {
 var Refresh = require('react-refresh/runtime');
 Refresh.injectIntoGlobalHook(window);
 window.$RefreshReg$ = function() {
@@ -151,11 +151,11 @@ window.$RefreshSig$ = function() {
     };
 };
 
-},{"react-refresh/runtime":"eqMEG"}],"eqMEG":[function(require,module,exports) {
+},{"react-refresh/runtime":"fNmB3"}],"fNmB3":[function(require,module,exports) {
 'use strict';
 module.exports = require('./cjs/react-refresh-runtime.development.js');
 
-},{"./cjs/react-refresh-runtime.development.js":"b4sBK"}],"b4sBK":[function(require,module,exports) {
+},{"./cjs/react-refresh-runtime.development.js":"1CJiQ"}],"1CJiQ":[function(require,module,exports) {
 /** @license React v0.9.0
  * react-refresh-runtime.development.js
  *
@@ -618,7 +618,7 @@ module.exports = require('./cjs/react-refresh-runtime.development.js');
     exports.setSignature = setSignature;
 })();
 
-},{}],"k2XMz":[function(require,module,exports) {
+},{}],"6a0zu":[function(require,module,exports) {
 var HMR_HOST = null;
 var HMR_PORT = null;
 var HMR_SECURE = false;
@@ -991,7 +991,7 @@ _reactDomDefault.default.render(/*#__PURE__*/ _reactDefault.default.createElemen
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-runtime":"8xIwr","react":"6TuXu","react-dom":"gkWJK","./index.scss":"jUTZ8","@parcel/transformer-js/src/esmodule-helpers.js":"5lGN4","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"lpaPZ","./components/main-view/main-view":"2zHas","react-bootstrap/Container":"2PRIq","redux":"4d0QS","react-redux":"2L0if","./reducers/reducers":"btgQW","redux-devtools-extension":"8GWVf"}],"8xIwr":[function(require,module,exports) {
+},{"react/jsx-runtime":"8xIwr","react":"6TuXu","react-dom":"gkWJK","./index.scss":"jUTZ8","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"5V79J","./components/main-view/main-view":"2zHas","react-bootstrap/Container":"2PRIq","redux":"4d0QS","react-redux":"2L0if","./reducers/reducers":"btgQW","redux-devtools-extension":"8GWVf"}],"8xIwr":[function(require,module,exports) {
 'use strict';
 module.exports = require('./cjs/react-jsx-runtime.development.js');
 
@@ -22749,7 +22749,7 @@ module.exports = require('./cjs/scheduler-tracing.development.js');
     exports.unstable_wrap = unstable_wrap;
 })();
 
-},{}],"jUTZ8":[function() {},{}],"5lGN4":[function(require,module,exports) {
+},{}],"jUTZ8":[function() {},{}],"JacNc":[function(require,module,exports) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -22781,7 +22781,7 @@ exports.export = function(dest, destName, get) {
     });
 };
 
-},{}],"lpaPZ":[function(require,module,exports) {
+},{}],"5V79J":[function(require,module,exports) {
 "use strict";
 var Refresh = require('react-refresh/runtime');
 function debounce(func, delay) {
@@ -22901,7 +22901,7 @@ function registerExportsForReactRefresh(module) {
     }
 }
 
-},{"react-refresh/runtime":"eqMEG"}],"2zHas":[function(require,module,exports) {
+},{"react-refresh/runtime":"fNmB3"}],"2zHas":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$35bf = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -23148,7 +23148,7 @@ exports.default = _reactRedux.connect(mapStateToProps, {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-runtime":"8xIwr","react":"6TuXu","axios":"iYoWk","../movie-view/movie-view":"ikZdr","@parcel/transformer-js/src/esmodule-helpers.js":"5lGN4","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"lpaPZ","../login-view/login-view":"054li","react-bootstrap/Row":"c0x1x","react-bootstrap/Col":"fbam0","../registration-view/registration-view":"aP2YV","react-router-dom":"cpyQW","../navbar-view/Navbar-view":"j0Dt2","../genre-view/genre-view":"8WCoL","../director-view/director-view":"ck15y","../profile-view/profile-view":"2E7Aw","react-redux":"2L0if","../../actions/actions":"1Ttfj","../movies-list/movies-list":"1kGQ5"}],"iYoWk":[function(require,module,exports) {
+},{"react/jsx-runtime":"8xIwr","react":"6TuXu","axios":"iYoWk","../movie-view/movie-view":"ikZdr","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"5V79J","../login-view/login-view":"054li","react-bootstrap/Row":"c0x1x","react-bootstrap/Col":"fbam0","../registration-view/registration-view":"aP2YV","react-router-dom":"cpyQW","../navbar-view/Navbar-view":"j0Dt2","../genre-view/genre-view":"8WCoL","../director-view/director-view":"ck15y","../profile-view/profile-view":"2E7Aw","react-redux":"2L0if","../../actions/actions":"1Ttfj","../movies-list/movies-list":"1kGQ5"}],"iYoWk":[function(require,module,exports) {
 module.exports = require('./lib/axios');
 
 },{"./lib/axios":"3QmO2"}],"3QmO2":[function(require,module,exports) {
@@ -23798,7 +23798,7 @@ utils.forEach([
 });
 module.exports = defaults;
 
-},{"process":"gzMm7","./utils":"hOPY0","./helpers/normalizeHeaderName":"6GUF5","./adapters/xhr":"4uZQD","./adapters/http":"4uZQD"}],"gzMm7":[function(require,module,exports) {
+},{"process":"6Upk8","./utils":"hOPY0","./helpers/normalizeHeaderName":"6GUF5","./adapters/xhr":"4uZQD","./adapters/http":"4uZQD"}],"6Upk8":[function(require,module,exports) {
 // shim for using process in browser
 var process = module.exports = {
 };
@@ -24771,7 +24771,7 @@ $RefreshReg$(_c, "MovieView");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-runtime":"8xIwr","react":"6TuXu","@parcel/transformer-js/src/esmodule-helpers.js":"5lGN4","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"lpaPZ","react-bootstrap/Button":"9CzHT","prop-types":"1tgq3","react-router-dom":"cpyQW","./movie-view.scss":"kvL93","react-router":"l4MNa","axios":"iYoWk","../../loading/Loading":"2Awru"}],"9CzHT":[function(require,module,exports) {
+},{"react/jsx-runtime":"8xIwr","react":"6TuXu","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"5V79J","react-bootstrap/Button":"9CzHT","prop-types":"1tgq3","react-router-dom":"cpyQW","./movie-view.scss":"kvL93","react-router":"l4MNa","axios":"iYoWk","../../loading/Loading":"2Awru"}],"9CzHT":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _extends = require("@babel/runtime/helpers/esm/extends");
@@ -24823,7 +24823,7 @@ Button.displayName = 'Button';
 Button.defaultProps = defaultProps;
 exports.default = Button;
 
-},{"@babel/runtime/helpers/esm/extends":"bKAu6","@babel/runtime/helpers/esm/objectWithoutPropertiesLoose":"3Rubg","classnames":"bOXOh","react":"6TuXu","./ThemeProvider":"eeqfi","./SafeAnchor":"2oMxS","@parcel/transformer-js/src/esmodule-helpers.js":"5lGN4"}],"bKAu6":[function(require,module,exports) {
+},{"@babel/runtime/helpers/esm/extends":"bKAu6","@babel/runtime/helpers/esm/objectWithoutPropertiesLoose":"3Rubg","classnames":"bOXOh","react":"6TuXu","./ThemeProvider":"eeqfi","./SafeAnchor":"2oMxS","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"bKAu6":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 function _extends() {
@@ -24838,7 +24838,7 @@ function _extends() {
 }
 exports.default = _extends;
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"5lGN4"}],"3Rubg":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"3Rubg":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 function _objectWithoutPropertiesLoose(source, excluded) {
@@ -24857,7 +24857,7 @@ function _objectWithoutPropertiesLoose(source, excluded) {
 }
 exports.default = _objectWithoutPropertiesLoose;
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"5lGN4"}],"bOXOh":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"bOXOh":[function(require,module,exports) {
 (function() {
     var hasOwn = {
     }.hasOwnProperty;
@@ -24944,7 +24944,7 @@ function createBootstrapComponent(Component, opts) {
 }
 exports.default = ThemeProvider;
 
-},{"@babel/runtime/helpers/esm/extends":"bKAu6","react":"6TuXu","@parcel/transformer-js/src/esmodule-helpers.js":"5lGN4"}],"2oMxS":[function(require,module,exports) {
+},{"@babel/runtime/helpers/esm/extends":"bKAu6","react":"6TuXu","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"2oMxS":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _extends = require("@babel/runtime/helpers/esm/extends");
@@ -25005,7 +25005,7 @@ function isTrivialHref(href) {
 SafeAnchor.displayName = 'SafeAnchor';
 exports.default = SafeAnchor;
 
-},{"@babel/runtime/helpers/esm/extends":"bKAu6","@babel/runtime/helpers/esm/objectWithoutPropertiesLoose":"3Rubg","react":"6TuXu","./createChainedFunction":"NDbpV","@parcel/transformer-js/src/esmodule-helpers.js":"5lGN4"}],"NDbpV":[function(require,module,exports) {
+},{"@babel/runtime/helpers/esm/extends":"bKAu6","@babel/runtime/helpers/esm/objectWithoutPropertiesLoose":"3Rubg","react":"6TuXu","./createChainedFunction":"NDbpV","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"NDbpV":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 /**
@@ -25033,7 +25033,7 @@ parcelHelpers.defineInteropFlag(exports);
 }
 exports.default = createChainedFunction;
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"5lGN4"}],"1tgq3":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"1tgq3":[function(require,module,exports) {
 var ReactIs = require('react-is');
 // By explicitly using `prop-types` you are opting into new development behavior.
 // http://fb.me/prop-types-in-prod
@@ -26014,7 +26014,7 @@ NavLink.propTypes = _extendsDefault.default({
     ])
 });
 
-},{"react-router":"l4MNa","@babel/runtime/helpers/esm/inheritsLoose":"eO0be","react":"6TuXu","history":"6R8lq","prop-types":"1tgq3","tiny-warning":"4xDJt","@babel/runtime/helpers/esm/extends":"bKAu6","@babel/runtime/helpers/esm/objectWithoutPropertiesLoose":"3Rubg","tiny-invariant":"kiE0c","@parcel/transformer-js/src/esmodule-helpers.js":"5lGN4"}],"l4MNa":[function(require,module,exports) {
+},{"react-router":"l4MNa","@babel/runtime/helpers/esm/inheritsLoose":"eO0be","react":"6TuXu","history":"6R8lq","prop-types":"1tgq3","tiny-warning":"4xDJt","@babel/runtime/helpers/esm/extends":"bKAu6","@babel/runtime/helpers/esm/objectWithoutPropertiesLoose":"3Rubg","tiny-invariant":"kiE0c","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"l4MNa":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "MemoryRouter", ()=>MemoryRouter1
@@ -26633,7 +26633,7 @@ if (typeof window !== "undefined") {
     global[key] = "esm";
 }
 
-},{"@babel/runtime/helpers/esm/inheritsLoose":"eO0be","react":"6TuXu","prop-types":"1tgq3","history":"6R8lq","tiny-warning":"4xDJt","mini-create-react-context":"bwjcK","tiny-invariant":"kiE0c","@babel/runtime/helpers/esm/extends":"bKAu6","path-to-regexp":"6SN7C","react-is":"5wFcP","@babel/runtime/helpers/esm/objectWithoutPropertiesLoose":"3Rubg","hoist-non-react-statics":"jfzb6","@parcel/transformer-js/src/esmodule-helpers.js":"5lGN4"}],"eO0be":[function(require,module,exports) {
+},{"@babel/runtime/helpers/esm/inheritsLoose":"eO0be","react":"6TuXu","prop-types":"1tgq3","history":"6R8lq","tiny-warning":"4xDJt","mini-create-react-context":"bwjcK","tiny-invariant":"kiE0c","@babel/runtime/helpers/esm/extends":"bKAu6","path-to-regexp":"6SN7C","react-is":"5wFcP","@babel/runtime/helpers/esm/objectWithoutPropertiesLoose":"3Rubg","hoist-non-react-statics":"jfzb6","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"eO0be":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _setPrototypeOfJs = require("./setPrototypeOf.js");
@@ -26645,7 +26645,7 @@ function _inheritsLoose(subClass, superClass) {
 }
 exports.default = _inheritsLoose;
 
-},{"./setPrototypeOf.js":"83cMx","@parcel/transformer-js/src/esmodule-helpers.js":"5lGN4"}],"83cMx":[function(require,module,exports) {
+},{"./setPrototypeOf.js":"83cMx","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"83cMx":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 function _setPrototypeOf(o, p) {
@@ -26657,7 +26657,7 @@ function _setPrototypeOf(o, p) {
 }
 exports.default = _setPrototypeOf;
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"5lGN4"}],"6R8lq":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"6R8lq":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "createBrowserHistory", ()=>createBrowserHistory
@@ -27387,7 +27387,7 @@ function clamp(n, lowerBound, upperBound) {
     return history;
 }
 
-},{"@babel/runtime/helpers/esm/extends":"bKAu6","resolve-pathname":"8Bknh","value-equal":"j68cW","tiny-warning":"4xDJt","tiny-invariant":"kiE0c","@parcel/transformer-js/src/esmodule-helpers.js":"5lGN4"}],"8Bknh":[function(require,module,exports) {
+},{"@babel/runtime/helpers/esm/extends":"bKAu6","resolve-pathname":"8Bknh","value-equal":"j68cW","tiny-warning":"4xDJt","tiny-invariant":"kiE0c","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"8Bknh":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 function isAbsolute(pathname) {
@@ -27439,7 +27439,7 @@ function resolvePathname(to, from) {
 }
 exports.default = resolvePathname;
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"5lGN4"}],"j68cW":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"j68cW":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 function valueOf(obj) {
@@ -27466,7 +27466,7 @@ function valueEqual(a, b) {
 }
 exports.default = valueEqual;
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"5lGN4"}],"4xDJt":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"4xDJt":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var isProduction = false;
@@ -27483,7 +27483,7 @@ function warning(condition, message) {
 }
 exports.default = warning;
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"5lGN4"}],"kiE0c":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"kiE0c":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var isProduction = false;
@@ -27495,7 +27495,7 @@ function invariant(condition, message) {
 }
 exports.default = invariant;
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"5lGN4"}],"bwjcK":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"bwjcK":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -27629,7 +27629,7 @@ function createReactContext(defaultValue, calculateChangedBits) {
 var index = _reactDefault.default.createContext || createReactContext;
 exports.default = index;
 
-},{"react":"6TuXu","@babel/runtime/helpers/esm/inheritsLoose":"eO0be","prop-types":"1tgq3","tiny-warning":"4xDJt","@parcel/transformer-js/src/esmodule-helpers.js":"5lGN4"}],"6SN7C":[function(require,module,exports) {
+},{"react":"6TuXu","@babel/runtime/helpers/esm/inheritsLoose":"eO0be","prop-types":"1tgq3","tiny-warning":"4xDJt","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"6SN7C":[function(require,module,exports) {
 var isarray = require('isarray');
 /**
  * Expose `pathToRegexp`.
@@ -28075,10 +28075,10 @@ $RefreshReg$(_c, "Loading");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-runtime":"8xIwr","react":"6TuXu","url:./spinner.gif":"8LumZ","./Loading.module.css":"934PT","@parcel/transformer-js/src/esmodule-helpers.js":"5lGN4","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"lpaPZ"}],"8LumZ":[function(require,module,exports) {
+},{"react/jsx-runtime":"8xIwr","react":"6TuXu","url:./spinner.gif":"cOX8s","./Loading.module.css":"934PT","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"5V79J"}],"cOX8s":[function(require,module,exports) {
 module.exports = require('./helpers/bundle-url').getBundleURL('3VpAv') + "spinner.caed6f06.gif";
 
-},{"./helpers/bundle-url":"7B0nW"}],"7B0nW":[function(require,module,exports) {
+},{"./helpers/bundle-url":"8YnfL"}],"8YnfL":[function(require,module,exports) {
 "use strict";
 var bundleURL = {
 };
@@ -28296,7 +28296,7 @@ $RefreshReg$(_c, "LoginView");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-runtime":"8xIwr","react":"6TuXu","@parcel/transformer-js/src/esmodule-helpers.js":"5lGN4","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"lpaPZ","react-bootstrap/Form":"5ykgY","react-bootstrap/Button":"9CzHT","prop-types":"1tgq3","./login-view.scss":"lS4BK","axios":"iYoWk","react-router-dom":"cpyQW"}],"5ykgY":[function(require,module,exports) {
+},{"react/jsx-runtime":"8xIwr","react":"6TuXu","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"5V79J","react-bootstrap/Form":"5ykgY","react-bootstrap/Button":"9CzHT","prop-types":"1tgq3","./login-view.scss":"lS4BK","axios":"iYoWk","react-router-dom":"cpyQW"}],"5ykgY":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _extends = require("@babel/runtime/helpers/esm/extends");
@@ -28356,7 +28356,7 @@ FormImpl.Label = _formLabelDefault.default;
 FormImpl.Text = _formTextDefault.default;
 exports.default = FormImpl;
 
-},{"@babel/runtime/helpers/esm/extends":"bKAu6","@babel/runtime/helpers/esm/objectWithoutPropertiesLoose":"3Rubg","classnames":"bOXOh","react":"6TuXu","./FormCheck":"27gi5","./FormFile":"eQb0B","./FormControl":"4wb7H","./FormGroup":"gWNri","./FormLabel":"5QGBM","./FormText":"5jn4s","./Switch":"lcyCa","./ThemeProvider":"eeqfi","./createWithBsPrefix":"8AqEH","@parcel/transformer-js/src/esmodule-helpers.js":"5lGN4"}],"27gi5":[function(require,module,exports) {
+},{"@babel/runtime/helpers/esm/extends":"bKAu6","@babel/runtime/helpers/esm/objectWithoutPropertiesLoose":"3Rubg","classnames":"bOXOh","react":"6TuXu","./FormCheck":"27gi5","./FormFile":"eQb0B","./FormControl":"4wb7H","./FormGroup":"gWNri","./FormLabel":"5QGBM","./FormText":"5jn4s","./Switch":"lcyCa","./ThemeProvider":"eeqfi","./createWithBsPrefix":"8AqEH","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"27gi5":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _extends = require("@babel/runtime/helpers/esm/extends");
@@ -28447,7 +28447,7 @@ FormCheck.Input = _formCheckInputDefault.default;
 FormCheck.Label = _formCheckLabelDefault.default;
 exports.default = FormCheck;
 
-},{"@babel/runtime/helpers/esm/extends":"bKAu6","@babel/runtime/helpers/esm/objectWithoutPropertiesLoose":"3Rubg","classnames":"bOXOh","prop-types-extra/lib/all":"ixImN","react":"6TuXu","./Feedback":"bChMq","./FormCheckInput":"JPxKl","./FormCheckLabel":"1KzMr","./FormContext":"7nyWW","./ThemeProvider":"eeqfi","@parcel/transformer-js/src/esmodule-helpers.js":"5lGN4"}],"ixImN":[function(require,module,exports) {
+},{"@babel/runtime/helpers/esm/extends":"bKAu6","@babel/runtime/helpers/esm/objectWithoutPropertiesLoose":"3Rubg","classnames":"bOXOh","prop-types-extra/lib/all":"ixImN","react":"6TuXu","./Feedback":"bChMq","./FormCheckInput":"JPxKl","./FormCheckLabel":"1KzMr","./FormContext":"7nyWW","./ThemeProvider":"eeqfi","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"ixImN":[function(require,module,exports) {
 'use strict';
 Object.defineProperty(exports, "__esModule", {
     value: true
@@ -28553,7 +28553,7 @@ Feedback.displayName = 'Feedback';
 Feedback.propTypes = propTypes;
 exports.default = Feedback;
 
-},{"@babel/runtime/helpers/esm/extends":"bKAu6","@babel/runtime/helpers/esm/objectWithoutPropertiesLoose":"3Rubg","classnames":"bOXOh","react":"6TuXu","prop-types":"1tgq3","@parcel/transformer-js/src/esmodule-helpers.js":"5lGN4"}],"JPxKl":[function(require,module,exports) {
+},{"@babel/runtime/helpers/esm/extends":"bKAu6","@babel/runtime/helpers/esm/objectWithoutPropertiesLoose":"3Rubg","classnames":"bOXOh","react":"6TuXu","prop-types":"1tgq3","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"JPxKl":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _extends = require("@babel/runtime/helpers/esm/extends");
@@ -28600,7 +28600,7 @@ var FormCheckInput = /*#__PURE__*/ _reactDefault.default.forwardRef(function(_re
 FormCheckInput.displayName = 'FormCheckInput';
 exports.default = FormCheckInput;
 
-},{"@babel/runtime/helpers/esm/extends":"bKAu6","@babel/runtime/helpers/esm/objectWithoutPropertiesLoose":"3Rubg","classnames":"bOXOh","react":"6TuXu","./FormContext":"7nyWW","./ThemeProvider":"eeqfi","@parcel/transformer-js/src/esmodule-helpers.js":"5lGN4"}],"7nyWW":[function(require,module,exports) {
+},{"@babel/runtime/helpers/esm/extends":"bKAu6","@babel/runtime/helpers/esm/objectWithoutPropertiesLoose":"3Rubg","classnames":"bOXOh","react":"6TuXu","./FormContext":"7nyWW","./ThemeProvider":"eeqfi","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"7nyWW":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react"); // TODO
@@ -28610,7 +28610,7 @@ var FormContext = /*#__PURE__*/ _reactDefault.default.createContext({
 });
 exports.default = FormContext;
 
-},{"react":"6TuXu","@parcel/transformer-js/src/esmodule-helpers.js":"5lGN4"}],"1KzMr":[function(require,module,exports) {
+},{"react":"6TuXu","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"1KzMr":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _extends = require("@babel/runtime/helpers/esm/extends");
@@ -28651,7 +28651,7 @@ var FormCheckLabel = /*#__PURE__*/ _reactDefault.default.forwardRef(function(_re
 FormCheckLabel.displayName = 'FormCheckLabel';
 exports.default = FormCheckLabel;
 
-},{"@babel/runtime/helpers/esm/extends":"bKAu6","@babel/runtime/helpers/esm/objectWithoutPropertiesLoose":"3Rubg","classnames":"bOXOh","react":"6TuXu","./FormContext":"7nyWW","./ThemeProvider":"eeqfi","@parcel/transformer-js/src/esmodule-helpers.js":"5lGN4"}],"eQb0B":[function(require,module,exports) {
+},{"@babel/runtime/helpers/esm/extends":"bKAu6","@babel/runtime/helpers/esm/objectWithoutPropertiesLoose":"3Rubg","classnames":"bOXOh","react":"6TuXu","./FormContext":"7nyWW","./ThemeProvider":"eeqfi","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"eQb0B":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _extends = require("@babel/runtime/helpers/esm/extends");
@@ -28741,7 +28741,7 @@ FormFile.Input = _formFileInputDefault.default;
 FormFile.Label = _formFileLabelDefault.default;
 exports.default = FormFile;
 
-},{"@babel/runtime/helpers/esm/extends":"bKAu6","@babel/runtime/helpers/esm/objectWithoutPropertiesLoose":"3Rubg","classnames":"bOXOh","react":"6TuXu","prop-types-extra/lib/all":"ixImN","./Feedback":"bChMq","./FormFileInput":"8i9tm","./FormFileLabel":"5bIn0","./FormContext":"7nyWW","./ThemeProvider":"eeqfi","@parcel/transformer-js/src/esmodule-helpers.js":"5lGN4"}],"8i9tm":[function(require,module,exports) {
+},{"@babel/runtime/helpers/esm/extends":"bKAu6","@babel/runtime/helpers/esm/objectWithoutPropertiesLoose":"3Rubg","classnames":"bOXOh","react":"6TuXu","prop-types-extra/lib/all":"ixImN","./Feedback":"bChMq","./FormFileInput":"8i9tm","./FormFileLabel":"5bIn0","./FormContext":"7nyWW","./ThemeProvider":"eeqfi","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"8i9tm":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _extends = require("@babel/runtime/helpers/esm/extends");
@@ -28789,7 +28789,7 @@ var FormFileInput = /*#__PURE__*/ _reactDefault.default.forwardRef(function(_ref
 FormFileInput.displayName = 'FormFileInput';
 exports.default = FormFileInput;
 
-},{"@babel/runtime/helpers/esm/extends":"bKAu6","@babel/runtime/helpers/esm/objectWithoutPropertiesLoose":"3Rubg","classnames":"bOXOh","react":"6TuXu","./FormContext":"7nyWW","./ThemeProvider":"eeqfi","@parcel/transformer-js/src/esmodule-helpers.js":"5lGN4"}],"5bIn0":[function(require,module,exports) {
+},{"@babel/runtime/helpers/esm/extends":"bKAu6","@babel/runtime/helpers/esm/objectWithoutPropertiesLoose":"3Rubg","classnames":"bOXOh","react":"6TuXu","./FormContext":"7nyWW","./ThemeProvider":"eeqfi","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"5bIn0":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _extends = require("@babel/runtime/helpers/esm/extends");
@@ -28831,7 +28831,7 @@ var FormFileLabel = /*#__PURE__*/ _reactDefault.default.forwardRef(function(_ref
 FormFileLabel.displayName = 'FormFileLabel';
 exports.default = FormFileLabel;
 
-},{"@babel/runtime/helpers/esm/extends":"bKAu6","@babel/runtime/helpers/esm/objectWithoutPropertiesLoose":"3Rubg","classnames":"bOXOh","react":"6TuXu","./FormContext":"7nyWW","./ThemeProvider":"eeqfi","@parcel/transformer-js/src/esmodule-helpers.js":"5lGN4"}],"4wb7H":[function(require,module,exports) {
+},{"@babel/runtime/helpers/esm/extends":"bKAu6","@babel/runtime/helpers/esm/objectWithoutPropertiesLoose":"3Rubg","classnames":"bOXOh","react":"6TuXu","./FormContext":"7nyWW","./ThemeProvider":"eeqfi","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"4wb7H":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _extends = require("@babel/runtime/helpers/esm/extends");
@@ -28915,7 +28915,7 @@ exports.default = Object.assign(FormControl, {
     Feedback: _feedbackDefault.default
 });
 
-},{"@babel/runtime/helpers/esm/extends":"bKAu6","@babel/runtime/helpers/esm/objectWithoutPropertiesLoose":"3Rubg","classnames":"bOXOh","prop-types-extra/lib/all":"ixImN","react":"6TuXu","warning":"dbfUS","./Feedback":"bChMq","./FormContext":"7nyWW","./ThemeProvider":"eeqfi","@parcel/transformer-js/src/esmodule-helpers.js":"5lGN4"}],"dbfUS":[function(require,module,exports) {
+},{"@babel/runtime/helpers/esm/extends":"bKAu6","@babel/runtime/helpers/esm/objectWithoutPropertiesLoose":"3Rubg","classnames":"bOXOh","prop-types-extra/lib/all":"ixImN","react":"6TuXu","warning":"dbfUS","./Feedback":"bChMq","./FormContext":"7nyWW","./ThemeProvider":"eeqfi","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"dbfUS":[function(require,module,exports) {
 /**
  * Copyright (c) 2014-present, Facebook, Inc.
  *
@@ -29002,7 +29002,7 @@ var FormGroup = /*#__PURE__*/ _reactDefault.default.forwardRef(function(_ref, re
 FormGroup.displayName = 'FormGroup';
 exports.default = FormGroup;
 
-},{"@babel/runtime/helpers/esm/extends":"bKAu6","@babel/runtime/helpers/esm/objectWithoutPropertiesLoose":"3Rubg","classnames":"bOXOh","react":"6TuXu","./FormContext":"7nyWW","./ThemeProvider":"eeqfi","@parcel/transformer-js/src/esmodule-helpers.js":"5lGN4"}],"5QGBM":[function(require,module,exports) {
+},{"@babel/runtime/helpers/esm/extends":"bKAu6","@babel/runtime/helpers/esm/objectWithoutPropertiesLoose":"3Rubg","classnames":"bOXOh","react":"6TuXu","./FormContext":"7nyWW","./ThemeProvider":"eeqfi","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"5QGBM":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _extends = require("@babel/runtime/helpers/esm/extends");
@@ -29058,7 +29058,7 @@ FormLabel.displayName = 'FormLabel';
 FormLabel.defaultProps = defaultProps;
 exports.default = FormLabel;
 
-},{"@babel/runtime/helpers/esm/extends":"bKAu6","@babel/runtime/helpers/esm/objectWithoutPropertiesLoose":"3Rubg","classnames":"bOXOh","react":"6TuXu","warning":"dbfUS","./Col":"fbam0","./FormContext":"7nyWW","./ThemeProvider":"eeqfi","@parcel/transformer-js/src/esmodule-helpers.js":"5lGN4"}],"fbam0":[function(require,module,exports) {
+},{"@babel/runtime/helpers/esm/extends":"bKAu6","@babel/runtime/helpers/esm/objectWithoutPropertiesLoose":"3Rubg","classnames":"bOXOh","react":"6TuXu","warning":"dbfUS","./Col":"fbam0","./FormContext":"7nyWW","./ThemeProvider":"eeqfi","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"fbam0":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _extends = require("@babel/runtime/helpers/esm/extends");
@@ -29116,7 +29116,7 @@ var Col = /*#__PURE__*/ _reactDefault.default.forwardRef(function(_ref, ref) {
 Col.displayName = 'Col';
 exports.default = Col;
 
-},{"@babel/runtime/helpers/esm/extends":"bKAu6","@babel/runtime/helpers/esm/objectWithoutPropertiesLoose":"3Rubg","classnames":"bOXOh","react":"6TuXu","./ThemeProvider":"eeqfi","@parcel/transformer-js/src/esmodule-helpers.js":"5lGN4"}],"5jn4s":[function(require,module,exports) {
+},{"@babel/runtime/helpers/esm/extends":"bKAu6","@babel/runtime/helpers/esm/objectWithoutPropertiesLoose":"3Rubg","classnames":"bOXOh","react":"6TuXu","./ThemeProvider":"eeqfi","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"5jn4s":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _extends = require("@babel/runtime/helpers/esm/extends");
@@ -29146,7 +29146,7 @@ var FormText = /*#__PURE__*/ _reactDefault.default.forwardRef(function(_ref, ref
 FormText.displayName = 'FormText';
 exports.default = FormText;
 
-},{"@babel/runtime/helpers/esm/extends":"bKAu6","@babel/runtime/helpers/esm/objectWithoutPropertiesLoose":"3Rubg","classnames":"bOXOh","react":"6TuXu","./ThemeProvider":"eeqfi","@parcel/transformer-js/src/esmodule-helpers.js":"5lGN4"}],"lcyCa":[function(require,module,exports) {
+},{"@babel/runtime/helpers/esm/extends":"bKAu6","@babel/runtime/helpers/esm/objectWithoutPropertiesLoose":"3Rubg","classnames":"bOXOh","react":"6TuXu","./ThemeProvider":"eeqfi","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"lcyCa":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _extends = require("@babel/runtime/helpers/esm/extends");
@@ -29167,7 +29167,7 @@ Switch.Input = _formCheckDefault.default.Input;
 Switch.Label = _formCheckDefault.default.Label;
 exports.default = Switch;
 
-},{"@babel/runtime/helpers/esm/extends":"bKAu6","react":"6TuXu","./FormCheck":"27gi5","@parcel/transformer-js/src/esmodule-helpers.js":"5lGN4"}],"8AqEH":[function(require,module,exports) {
+},{"@babel/runtime/helpers/esm/extends":"bKAu6","react":"6TuXu","./FormCheck":"27gi5","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"8AqEH":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _extends = require("@babel/runtime/helpers/esm/extends");
@@ -29206,7 +29206,7 @@ function createWithBsPrefix(prefix, _temp) {
 }
 exports.default = createWithBsPrefix;
 
-},{"@babel/runtime/helpers/esm/extends":"bKAu6","@babel/runtime/helpers/esm/objectWithoutPropertiesLoose":"3Rubg","classnames":"bOXOh","dom-helpers/camelize":"aJYM3","react":"6TuXu","./ThemeProvider":"eeqfi","@parcel/transformer-js/src/esmodule-helpers.js":"5lGN4"}],"aJYM3":[function(require,module,exports) {
+},{"@babel/runtime/helpers/esm/extends":"bKAu6","@babel/runtime/helpers/esm/objectWithoutPropertiesLoose":"3Rubg","classnames":"bOXOh","dom-helpers/camelize":"aJYM3","react":"6TuXu","./ThemeProvider":"eeqfi","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"aJYM3":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var rHyphen = /-(.)/g;
@@ -29217,7 +29217,7 @@ function camelize(string) {
 }
 exports.default = camelize;
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"5lGN4"}],"lS4BK":[function() {},{}],"c0x1x":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"lS4BK":[function() {},{}],"c0x1x":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _extends = require("@babel/runtime/helpers/esm/extends");
@@ -29273,7 +29273,7 @@ Row.displayName = 'Row';
 Row.defaultProps = defaultProps;
 exports.default = Row;
 
-},{"@babel/runtime/helpers/esm/extends":"bKAu6","@babel/runtime/helpers/esm/objectWithoutPropertiesLoose":"3Rubg","classnames":"bOXOh","react":"6TuXu","./ThemeProvider":"eeqfi","@parcel/transformer-js/src/esmodule-helpers.js":"5lGN4"}],"aP2YV":[function(require,module,exports) {
+},{"@babel/runtime/helpers/esm/extends":"bKAu6","@babel/runtime/helpers/esm/objectWithoutPropertiesLoose":"3Rubg","classnames":"bOXOh","react":"6TuXu","./ThemeProvider":"eeqfi","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"aP2YV":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$8dd4 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -29526,7 +29526,7 @@ $RefreshReg$(_c, "RegistrationView");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-runtime":"8xIwr","react":"6TuXu","prop-types":"1tgq3","./registration-view.scss":"fr9ZP","react-bootstrap/Form":"5ykgY","react-bootstrap/Button":"9CzHT","@parcel/transformer-js/src/esmodule-helpers.js":"5lGN4","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"lpaPZ","axios":"iYoWk","react-router-dom":"cpyQW","moment":"5Keig"}],"fr9ZP":[function() {},{}],"5Keig":[function(require,module,exports) {
+},{"react/jsx-runtime":"8xIwr","react":"6TuXu","prop-types":"1tgq3","./registration-view.scss":"fr9ZP","react-bootstrap/Form":"5ykgY","react-bootstrap/Button":"9CzHT","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"5V79J","axios":"iYoWk","react-router-dom":"cpyQW","moment":"5Keig"}],"fr9ZP":[function() {},{}],"5Keig":[function(require,module,exports) {
 (function(global, factory) {
     typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() : typeof define === 'function' && define.amd ? define(factory) : global.moment = factory();
 })(this, function() {
@@ -33354,7 +33354,7 @@ $RefreshReg$(_c, "NavbarView");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-runtime":"8xIwr","react":"6TuXu","react-router-dom":"cpyQW","./navbar-view.scss":"eDP1C","@parcel/transformer-js/src/esmodule-helpers.js":"5lGN4","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"lpaPZ"}],"eDP1C":[function() {},{}],"8WCoL":[function(require,module,exports) {
+},{"react/jsx-runtime":"8xIwr","react":"6TuXu","react-router-dom":"cpyQW","./navbar-view.scss":"eDP1C","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"5V79J"}],"eDP1C":[function() {},{}],"8WCoL":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$5f0a = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -33460,7 +33460,7 @@ GenreView.propTypes = {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-runtime":"8xIwr","react":"6TuXu","prop-types":"1tgq3","react-bootstrap/Button":"9CzHT","@parcel/transformer-js/src/esmodule-helpers.js":"5lGN4","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"lpaPZ"}],"ck15y":[function(require,module,exports) {
+},{"react/jsx-runtime":"8xIwr","react":"6TuXu","prop-types":"1tgq3","react-bootstrap/Button":"9CzHT","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"5V79J"}],"ck15y":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$f8cc = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -33584,7 +33584,7 @@ DirectorView.propTypes = {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-runtime":"8xIwr","react":"6TuXu","prop-types":"1tgq3","react-bootstrap/Button":"9CzHT","./director-view.scss":"hWS1b","@parcel/transformer-js/src/esmodule-helpers.js":"5lGN4","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"lpaPZ"}],"hWS1b":[function() {},{}],"2E7Aw":[function(require,module,exports) {
+},{"react/jsx-runtime":"8xIwr","react":"6TuXu","prop-types":"1tgq3","react-bootstrap/Button":"9CzHT","./director-view.scss":"hWS1b","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"5V79J"}],"hWS1b":[function() {},{}],"2E7Aw":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$58c6 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -34201,10 +34201,10 @@ $RefreshReg$(_c, "Profile");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-runtime":"8xIwr","axios":"iYoWk","react":"6TuXu","react-bootstrap/Form":"5ykgY","react-bootstrap/Button":"9CzHT","../../img/profile.png":"5etTw","./profile-view.scss":"gb0ga","@parcel/transformer-js/src/esmodule-helpers.js":"5lGN4","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"lpaPZ","react-redux":"2L0if","../../actions/actions":"1Ttfj"}],"5etTw":[function(require,module,exports) {
+},{"react/jsx-runtime":"8xIwr","axios":"iYoWk","react":"6TuXu","react-bootstrap/Form":"5ykgY","react-bootstrap/Button":"9CzHT","../../img/profile.png":"ishO3","./profile-view.scss":"gb0ga","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"5V79J","react-redux":"2L0if","../../actions/actions":"1Ttfj"}],"ishO3":[function(require,module,exports) {
 module.exports = require('./helpers/bundle-url').getBundleURL('3VpAv') + "profile.7c883962.png";
 
-},{"./helpers/bundle-url":"7B0nW"}],"gb0ga":[function() {},{}],"2L0if":[function(require,module,exports) {
+},{"./helpers/bundle-url":"8YnfL"}],"gb0ga":[function() {},{}],"2L0if":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "batch", ()=>_reactBatchedUpdates.unstable_batchedUpdates
@@ -34216,7 +34216,7 @@ parcelHelpers.exportAll(_exports, exports);
 // with standard React renderers (ReactDOM, React Native)
 _batch.setBatch(_reactBatchedUpdates.unstable_batchedUpdates);
 
-},{"./exports":"amFLd","./utils/reactBatchedUpdates":"kaP8a","./utils/batch":"2g3ZY","@parcel/transformer-js/src/esmodule-helpers.js":"5lGN4"}],"amFLd":[function(require,module,exports) {
+},{"./exports":"amFLd","./utils/reactBatchedUpdates":"kaP8a","./utils/batch":"2g3ZY","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"amFLd":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "Provider", ()=>_providerDefault.default
@@ -34254,7 +34254,7 @@ var _useStore = require("./hooks/useStore");
 var _shallowEqual = require("./utils/shallowEqual");
 var _shallowEqualDefault = parcelHelpers.interopDefault(_shallowEqual);
 
-},{"./components/Provider":"efEZ1","./components/connectAdvanced":"5cRBV","./components/Context":"gT1Jg","./connect/connect":"9zpXe","./hooks/useDispatch":"2CDvn","./hooks/useSelector":"27k1i","./hooks/useStore":"fDPAT","./utils/shallowEqual":"leLul","@parcel/transformer-js/src/esmodule-helpers.js":"5lGN4"}],"efEZ1":[function(require,module,exports) {
+},{"./components/Provider":"efEZ1","./components/connectAdvanced":"5cRBV","./components/Context":"gT1Jg","./connect/connect":"9zpXe","./hooks/useDispatch":"2CDvn","./hooks/useSelector":"27k1i","./hooks/useStore":"fDPAT","./utils/shallowEqual":"leLul","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"efEZ1":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -34309,7 +34309,7 @@ Provider.propTypes = {
 };
 exports.default = Provider;
 
-},{"react":"6TuXu","prop-types":"1tgq3","./Context":"gT1Jg","../utils/Subscription":"6rtcC","../utils/useIsomorphicLayoutEffect":"2TWoQ","@parcel/transformer-js/src/esmodule-helpers.js":"5lGN4"}],"gT1Jg":[function(require,module,exports) {
+},{"react":"6TuXu","prop-types":"1tgq3","./Context":"gT1Jg","../utils/Subscription":"6rtcC","../utils/useIsomorphicLayoutEffect":"2TWoQ","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"gT1Jg":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "ReactReduxContext", ()=>ReactReduxContext
@@ -34320,7 +34320,7 @@ var ReactReduxContext = /*#__PURE__*/ _reactDefault.default.createContext(null);
 ReactReduxContext.displayName = 'ReactRedux';
 exports.default = ReactReduxContext;
 
-},{"react":"6TuXu","@parcel/transformer-js/src/esmodule-helpers.js":"5lGN4"}],"6rtcC":[function(require,module,exports) {
+},{"react":"6TuXu","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"6rtcC":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "createSubscription", ()=>createSubscription
@@ -34426,7 +34426,7 @@ function createSubscription(store, parentSub) {
     return subscription;
 }
 
-},{"./batch":"2g3ZY","@parcel/transformer-js/src/esmodule-helpers.js":"5lGN4"}],"2g3ZY":[function(require,module,exports) {
+},{"./batch":"2g3ZY","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"2g3ZY":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "setBatch", ()=>setBatch
@@ -34445,7 +34445,7 @@ var getBatch = function getBatch1() {
     return batch;
 };
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"5lGN4"}],"2TWoQ":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"2TWoQ":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "useIsomorphicLayoutEffect", ()=>useIsomorphicLayoutEffect
@@ -34453,7 +34453,7 @@ parcelHelpers.export(exports, "useIsomorphicLayoutEffect", ()=>useIsomorphicLayo
 var _react = require("react"); // React currently throws a warning when using useLayoutEffect on the server.
 var useIsomorphicLayoutEffect = typeof window !== 'undefined' && typeof window.document !== 'undefined' && typeof window.document.createElement !== 'undefined' ? _react.useLayoutEffect : _react.useEffect;
 
-},{"react":"6TuXu","@parcel/transformer-js/src/esmodule-helpers.js":"5lGN4"}],"5cRBV":[function(require,module,exports) {
+},{"react":"6TuXu","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"5cRBV":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _extends = require("@babel/runtime/helpers/esm/extends");
@@ -34800,7 +34800,7 @@ function connectAdvanced(/*
 }
 exports.default = connectAdvanced;
 
-},{"@babel/runtime/helpers/esm/extends":"bKAu6","@babel/runtime/helpers/esm/objectWithoutPropertiesLoose":"3Rubg","hoist-non-react-statics":"jfzb6","react":"6TuXu","react-is":"5wFcP","../utils/Subscription":"6rtcC","../utils/useIsomorphicLayoutEffect":"2TWoQ","./Context":"gT1Jg","@parcel/transformer-js/src/esmodule-helpers.js":"5lGN4"}],"9zpXe":[function(require,module,exports) {
+},{"@babel/runtime/helpers/esm/extends":"bKAu6","@babel/runtime/helpers/esm/objectWithoutPropertiesLoose":"3Rubg","hoist-non-react-statics":"jfzb6","react":"6TuXu","react-is":"5wFcP","../utils/Subscription":"6rtcC","../utils/useIsomorphicLayoutEffect":"2TWoQ","./Context":"gT1Jg","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"9zpXe":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 // different options opens up some testing and extensibility scenarios
@@ -34889,7 +34889,7 @@ function createConnect(_temp) {
 }
 exports.default = /*#__PURE__*/ createConnect();
 
-},{"@babel/runtime/helpers/esm/extends":"bKAu6","@babel/runtime/helpers/esm/objectWithoutPropertiesLoose":"3Rubg","../components/connectAdvanced":"5cRBV","../utils/shallowEqual":"leLul","./mapDispatchToProps":"5WOJW","./mapStateToProps":"fi6QF","./mergeProps":"j48TE","./selectorFactory":"2XZ1a","@parcel/transformer-js/src/esmodule-helpers.js":"5lGN4"}],"leLul":[function(require,module,exports) {
+},{"@babel/runtime/helpers/esm/extends":"bKAu6","@babel/runtime/helpers/esm/objectWithoutPropertiesLoose":"3Rubg","../components/connectAdvanced":"5cRBV","../utils/shallowEqual":"leLul","./mapDispatchToProps":"5WOJW","./mapStateToProps":"fi6QF","./mergeProps":"j48TE","./selectorFactory":"2XZ1a","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"leLul":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 function is(x, y) {
@@ -34909,7 +34909,7 @@ function shallowEqual(objA, objB) {
 }
 exports.default = shallowEqual;
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"5lGN4"}],"5WOJW":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"5WOJW":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "whenMapDispatchToPropsIsFunction", ()=>whenMapDispatchToPropsIsFunction
@@ -34942,7 +34942,7 @@ exports.default = [
     whenMapDispatchToPropsIsObject
 ];
 
-},{"../utils/bindActionCreators":"dTgYQ","./wrapMapToProps":"cK0KG","@parcel/transformer-js/src/esmodule-helpers.js":"5lGN4"}],"dTgYQ":[function(require,module,exports) {
+},{"../utils/bindActionCreators":"dTgYQ","./wrapMapToProps":"cK0KG","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"dTgYQ":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 function bindActionCreators(actionCreators, dispatch) {
@@ -34959,7 +34959,7 @@ function bindActionCreators(actionCreators, dispatch) {
 }
 exports.default = bindActionCreators;
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"5lGN4"}],"cK0KG":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"cK0KG":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "wrapMapToPropsConstant", ()=>wrapMapToPropsConstant
@@ -35025,7 +35025,7 @@ function wrapMapToPropsFunc(mapToProps, methodName) {
     };
 }
 
-},{"../utils/verifyPlainObject":"8txK0","@parcel/transformer-js/src/esmodule-helpers.js":"5lGN4"}],"8txK0":[function(require,module,exports) {
+},{"../utils/verifyPlainObject":"8txK0","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"8txK0":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _isPlainObject = require("./isPlainObject");
@@ -35037,7 +35037,7 @@ function verifyPlainObject(value, displayName, methodName) {
 }
 exports.default = verifyPlainObject;
 
-},{"./isPlainObject":"awooc","./warning":"fl0jd","@parcel/transformer-js/src/esmodule-helpers.js":"5lGN4"}],"awooc":[function(require,module,exports) {
+},{"./isPlainObject":"awooc","./warning":"fl0jd","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"awooc":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 function isPlainObject(obj) {
@@ -35050,7 +35050,7 @@ function isPlainObject(obj) {
 }
 exports.default = isPlainObject;
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"5lGN4"}],"fl0jd":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"fl0jd":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 function warning(message) {
@@ -35065,7 +35065,7 @@ function warning(message) {
 /* eslint-enable no-empty */ }
 exports.default = warning;
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"5lGN4"}],"fi6QF":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"fi6QF":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "whenMapStateToPropsIsFunction", ()=>whenMapStateToPropsIsFunction
@@ -35087,7 +35087,7 @@ exports.default = [
     whenMapStateToPropsIsMissing
 ];
 
-},{"./wrapMapToProps":"cK0KG","@parcel/transformer-js/src/esmodule-helpers.js":"5lGN4"}],"j48TE":[function(require,module,exports) {
+},{"./wrapMapToProps":"cK0KG","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"j48TE":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "defaultMergeProps", ()=>defaultMergeProps
@@ -35137,7 +35137,7 @@ exports.default = [
     whenMergePropsIsOmitted
 ];
 
-},{"@babel/runtime/helpers/esm/extends":"bKAu6","../utils/verifyPlainObject":"8txK0","@parcel/transformer-js/src/esmodule-helpers.js":"5lGN4"}],"2XZ1a":[function(require,module,exports) {
+},{"@babel/runtime/helpers/esm/extends":"bKAu6","../utils/verifyPlainObject":"8txK0","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"2XZ1a":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "impureFinalPropsSelectorFactory", ()=>impureFinalPropsSelectorFactory
@@ -35220,7 +35220,7 @@ function finalPropsSelectorFactory(dispatch, _ref2) {
 }
 exports.default = finalPropsSelectorFactory;
 
-},{"@babel/runtime/helpers/esm/objectWithoutPropertiesLoose":"3Rubg","./verifySubselectors":"lInRo","@parcel/transformer-js/src/esmodule-helpers.js":"5lGN4"}],"lInRo":[function(require,module,exports) {
+},{"@babel/runtime/helpers/esm/objectWithoutPropertiesLoose":"3Rubg","./verifySubselectors":"lInRo","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"lInRo":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _warning = require("../utils/warning");
@@ -35238,7 +35238,7 @@ function verifySubselectors(mapStateToProps, mapDispatchToProps, mergeProps, dis
 }
 exports.default = verifySubselectors;
 
-},{"../utils/warning":"fl0jd","@parcel/transformer-js/src/esmodule-helpers.js":"5lGN4"}],"2CDvn":[function(require,module,exports) {
+},{"../utils/warning":"fl0jd","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"2CDvn":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 /**
@@ -35262,7 +35262,7 @@ function createDispatchHook(context) {
 }
 var useDispatch = /*#__PURE__*/ createDispatchHook();
 
-},{"../components/Context":"gT1Jg","./useStore":"fDPAT","@parcel/transformer-js/src/esmodule-helpers.js":"5lGN4"}],"fDPAT":[function(require,module,exports) {
+},{"../components/Context":"gT1Jg","./useStore":"fDPAT","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"fDPAT":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 /**
@@ -35289,7 +35289,7 @@ function createStoreHook(context) {
 }
 var useStore = /*#__PURE__*/ createStoreHook();
 
-},{"react":"6TuXu","../components/Context":"gT1Jg","./useReduxContext":"516XC","@parcel/transformer-js/src/esmodule-helpers.js":"5lGN4"}],"516XC":[function(require,module,exports) {
+},{"react":"6TuXu","../components/Context":"gT1Jg","./useReduxContext":"516XC","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"516XC":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 /**
@@ -35317,7 +35317,7 @@ function useReduxContext() {
     return contextValue;
 }
 
-},{"react":"6TuXu","../components/Context":"gT1Jg","@parcel/transformer-js/src/esmodule-helpers.js":"5lGN4"}],"27k1i":[function(require,module,exports) {
+},{"react":"6TuXu","../components/Context":"gT1Jg","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"27k1i":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 /**
@@ -35417,14 +35417,14 @@ function createSelectorHook(context) {
 }
 var useSelector = /*#__PURE__*/ createSelectorHook();
 
-},{"react":"6TuXu","./useReduxContext":"516XC","../utils/Subscription":"6rtcC","../utils/useIsomorphicLayoutEffect":"2TWoQ","../components/Context":"gT1Jg","@parcel/transformer-js/src/esmodule-helpers.js":"5lGN4"}],"kaP8a":[function(require,module,exports) {
+},{"react":"6TuXu","./useReduxContext":"516XC","../utils/Subscription":"6rtcC","../utils/useIsomorphicLayoutEffect":"2TWoQ","../components/Context":"gT1Jg","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"kaP8a":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 /* eslint-disable import/no-unresolved */ parcelHelpers.export(exports, "unstable_batchedUpdates", ()=>_reactDom.unstable_batchedUpdates
 );
 var _reactDom = require("react-dom");
 
-},{"react-dom":"gkWJK","@parcel/transformer-js/src/esmodule-helpers.js":"5lGN4"}],"1Ttfj":[function(require,module,exports) {
+},{"react-dom":"gkWJK","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"1Ttfj":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "SET_MOVIES", ()=>SET_MOVIES
@@ -35462,7 +35462,7 @@ function setUser(user) {
     };
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"5lGN4"}],"1kGQ5":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"1kGQ5":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$2519 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -35542,7 +35542,7 @@ $RefreshReg$(_c, "MoviesList");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-runtime":"8xIwr","react":"6TuXu","react-bootstrap/Col":"fbam0","react-redux":"2L0if","../movie-card/movie-card":"6EiBJ","@parcel/transformer-js/src/esmodule-helpers.js":"5lGN4","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"lpaPZ","../visibility-filter-input/visibility-filter-input":"7ZxGS"}],"6EiBJ":[function(require,module,exports) {
+},{"react/jsx-runtime":"8xIwr","react":"6TuXu","react-bootstrap/Col":"fbam0","react-redux":"2L0if","../movie-card/movie-card":"6EiBJ","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"5V79J","../visibility-filter-input/visibility-filter-input":"7ZxGS"}],"6EiBJ":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$4249 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -35640,7 +35640,7 @@ MovieCard.propTypes = {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-runtime":"8xIwr","react":"6TuXu","prop-types":"1tgq3","react-router-dom":"cpyQW","react-bootstrap/Card":"MoOk8","react-bootstrap/Button":"9CzHT","./movie-card.scss":"cF5gT","@parcel/transformer-js/src/esmodule-helpers.js":"5lGN4","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"lpaPZ"}],"MoOk8":[function(require,module,exports) {
+},{"react/jsx-runtime":"8xIwr","react":"6TuXu","prop-types":"1tgq3","react-router-dom":"cpyQW","react-bootstrap/Card":"MoOk8","react-bootstrap/Button":"9CzHT","./movie-card.scss":"cF5gT","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"5V79J"}],"MoOk8":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _extends = require("@babel/runtime/helpers/esm/extends");
@@ -35723,7 +35723,7 @@ Card.Footer = CardFooter;
 Card.ImgOverlay = CardImgOverlay;
 exports.default = Card;
 
-},{"@babel/runtime/helpers/esm/extends":"bKAu6","@babel/runtime/helpers/esm/objectWithoutPropertiesLoose":"3Rubg","classnames":"bOXOh","react":"6TuXu","./ThemeProvider":"eeqfi","./createWithBsPrefix":"8AqEH","./divWithClassName":"GBmBH","./CardContext":"9AVwu","./CardImg":"5GKOF","@parcel/transformer-js/src/esmodule-helpers.js":"5lGN4"}],"GBmBH":[function(require,module,exports) {
+},{"@babel/runtime/helpers/esm/extends":"bKAu6","@babel/runtime/helpers/esm/objectWithoutPropertiesLoose":"3Rubg","classnames":"bOXOh","react":"6TuXu","./ThemeProvider":"eeqfi","./createWithBsPrefix":"8AqEH","./divWithClassName":"GBmBH","./CardContext":"9AVwu","./CardImg":"5GKOF","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"GBmBH":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _extends = require("@babel/runtime/helpers/esm/extends");
@@ -35742,7 +35742,7 @@ exports.default = function(className) {
     }));
 };
 
-},{"@babel/runtime/helpers/esm/extends":"bKAu6","react":"6TuXu","classnames":"bOXOh","@parcel/transformer-js/src/esmodule-helpers.js":"5lGN4"}],"9AVwu":[function(require,module,exports) {
+},{"@babel/runtime/helpers/esm/extends":"bKAu6","react":"6TuXu","classnames":"bOXOh","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"9AVwu":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -35751,7 +35751,7 @@ var context = /*#__PURE__*/ _reactDefault.default.createContext(null);
 context.displayName = 'CardContext';
 exports.default = context;
 
-},{"react":"6TuXu","@parcel/transformer-js/src/esmodule-helpers.js":"5lGN4"}],"5GKOF":[function(require,module,exports) {
+},{"react":"6TuXu","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"5GKOF":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _extends = require("@babel/runtime/helpers/esm/extends");
@@ -35784,7 +35784,7 @@ CardImg.displayName = 'CardImg';
 CardImg.defaultProps = defaultProps;
 exports.default = CardImg;
 
-},{"@babel/runtime/helpers/esm/extends":"bKAu6","@babel/runtime/helpers/esm/objectWithoutPropertiesLoose":"3Rubg","classnames":"bOXOh","react":"6TuXu","./ThemeProvider":"eeqfi","@parcel/transformer-js/src/esmodule-helpers.js":"5lGN4"}],"cF5gT":[function() {},{}],"7ZxGS":[function(require,module,exports) {
+},{"@babel/runtime/helpers/esm/extends":"bKAu6","@babel/runtime/helpers/esm/objectWithoutPropertiesLoose":"3Rubg","classnames":"bOXOh","react":"6TuXu","./ThemeProvider":"eeqfi","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"cF5gT":[function() {},{}],"7ZxGS":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$9bc3 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -35825,7 +35825,7 @@ $RefreshReg$(_c, "VisibilityFilterInput");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-runtime":"8xIwr","react":"6TuXu","react-redux":"2L0if","react-bootstrap/Form":"5ykgY","../../actions/actions":"1Ttfj","@parcel/transformer-js/src/esmodule-helpers.js":"5lGN4","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"lpaPZ"}],"2PRIq":[function(require,module,exports) {
+},{"react/jsx-runtime":"8xIwr","react":"6TuXu","react-redux":"2L0if","react-bootstrap/Form":"5ykgY","../../actions/actions":"1Ttfj","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"5V79J"}],"2PRIq":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _extends = require("@babel/runtime/helpers/esm/extends");
@@ -35860,7 +35860,7 @@ Container.displayName = 'Container';
 Container.defaultProps = defaultProps;
 exports.default = Container;
 
-},{"@babel/runtime/helpers/esm/extends":"bKAu6","@babel/runtime/helpers/esm/objectWithoutPropertiesLoose":"3Rubg","classnames":"bOXOh","react":"6TuXu","./ThemeProvider":"eeqfi","@parcel/transformer-js/src/esmodule-helpers.js":"5lGN4"}],"4d0QS":[function(require,module,exports) {
+},{"@babel/runtime/helpers/esm/extends":"bKAu6","@babel/runtime/helpers/esm/objectWithoutPropertiesLoose":"3Rubg","classnames":"bOXOh","react":"6TuXu","./ThemeProvider":"eeqfi","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"4d0QS":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "__DO_NOT_USE__ActionTypes", ()=>ActionTypes
@@ -36362,7 +36362,7 @@ function bindActionCreator(actionCreator, dispatch) {
 }
 if (typeof isCrushed.name === 'string' && isCrushed.name !== 'isCrushed') warning("You are currently using minified code outside of NODE_ENV === \"production\". This means that you are running a slower development build of Redux. You can use loose-envify (https://github.com/zertosh/loose-envify) for browserify or setting mode to production in webpack (https://webpack.js.org/concepts/mode/) to ensure you have the correct code for your production build.");
 
-},{"@babel/runtime/helpers/esm/objectSpread2":"bSD1u","@parcel/transformer-js/src/esmodule-helpers.js":"5lGN4"}],"bSD1u":[function(require,module,exports) {
+},{"@babel/runtime/helpers/esm/objectSpread2":"bSD1u","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"bSD1u":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _definePropertyJs = require("./defineProperty.js");
@@ -36394,7 +36394,7 @@ function _objectSpread2(target) {
 }
 exports.default = _objectSpread2;
 
-},{"./defineProperty.js":"7s3FO","@parcel/transformer-js/src/esmodule-helpers.js":"5lGN4"}],"7s3FO":[function(require,module,exports) {
+},{"./defineProperty.js":"7s3FO","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"7s3FO":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 function _defineProperty(obj, key, value) {
@@ -36409,7 +36409,7 @@ function _defineProperty(obj, key, value) {
 }
 exports.default = _defineProperty;
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"5lGN4"}],"btgQW":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"btgQW":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _redux = require("redux");
@@ -36445,7 +36445,7 @@ const moviesApp = _redux.combineReducers({
 });
 exports.default = moviesApp;
 
-},{"redux":"4d0QS","../actions/actions":"1Ttfj","@parcel/transformer-js/src/esmodule-helpers.js":"5lGN4"}],"8GWVf":[function(require,module,exports) {
+},{"redux":"4d0QS","../actions/actions":"1Ttfj","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"8GWVf":[function(require,module,exports) {
 'use strict';
 var compose = require('redux').compose;
 exports.__esModule = true;
@@ -36460,6 +36460,6 @@ exports.devToolsEnhancer = typeof window !== 'undefined' && window.__REDUX_DEVTO
     };
 };
 
-},{"redux":"4d0QS"}]},["9NtYk","k2XMz","dLPEP"], "dLPEP", "parcelRequireaec4")
+},{"redux":"4d0QS"}]},["2rAXy","6a0zu","dLPEP"], "dLPEP", "parcelRequireaec4")
 
 //# sourceMappingURL=index.6701a6e1.js.map
