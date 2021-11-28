@@ -17,6 +17,7 @@ import { RegistrationView } from '../registration-view/registration-view';
 import Profile from '../profile-view/profile-view';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Switch from 'react-bootstrap/esm/Switch';
 
 // #2 export keyword removed from here
 class MainView extends React.Component {
@@ -70,9 +71,11 @@ class MainView extends React.Component {
     if (!user)
       return (
         <Router>
-          <Col>
-            <LoginView onLoggedIn={(user) => this.onLoggedIn(user)} />
-          </Col>
+          <Switch>
+            <Col>
+              <LoginView onLoggedIn={(user) => this.onLoggedIn(user)} />
+            </Col>
+          </Switch>
         </Router>
       );
 

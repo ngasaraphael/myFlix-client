@@ -117,4 +117,4 @@ class MovieViewComponent extends React.Component {
 //   }).isRequired,
 // };
 
-export const MovieView = withRouter(MovieViewComponent);
+export const MovieView = MovieViewComponent;
